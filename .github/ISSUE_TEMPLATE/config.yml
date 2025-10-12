@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: FAQ
+    url: https://lunodb.app/faq
+    about: Check our frequently asked questions for common issues and solutions
+  - name: Purchase Support
+    url: https://lunodb.app/contact
+    about: Get help with license purchases or activation
+  - name: Email Support
+    url: mailto:support@lunodb.app
+    about: Contact our support team directly
