@@ -88,9 +88,9 @@ We encourage users who find LunoDB helpful to consider purchasing a Pro license 
 
 ## Documentation & Support
 
-- **Documentation** - [GitHub Wiki](https://github.com/lunodb/lunodb-app/wiki)
-- **Bug Reports** - [GitHub Issues](https://github.com/lunodb/lunodb-app/issues)
-- **Feature Requests** - [GitHub Discussions](https://github.com/lunodb/lunodb-app/discussions)
+- **Documentation** - [GitHub Wiki](https://github.com/lunodb/lunodb/wiki)
+- **Bug Reports** - [GitHub Issues](https://github.com/lunodb/lunodb/issues)
+- **Feature Requests** - [GitHub Discussions](https://github.com/lunodb/lunodb/discussions)
 
 ## Contact
 
