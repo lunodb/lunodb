@@ -9,7 +9,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 ## Download
 
-[**Download Latest Release**](https://lunodb.app/download)
+[**Download Latest Release**](https://github.com/lunodb/lunodb/releases/latest)
 
 - **macOS** - Apple Silicon & Intel
 - **Windows** - x64 & ARM64
