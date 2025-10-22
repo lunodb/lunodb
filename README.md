@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.8.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.9.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.8.0:** Stop slow queries instantly, get warnings before querying huge tables, and enjoy 3x faster schema loading.
+**✨ NEW in v1.9.0:** Copy and paste rows with keyboard shortcuts, export query results in multiple formats, and run multiple SQL queries in one editor. Your connections and work are saved automatically.
 
 ## Download
 
@@ -29,13 +29,16 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 ### Core Features
 - **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, and Redis
-- **Professional Query Editor** - Monaco Editor with syntax highlighting and autocomplete
+- **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
 - **Query Control** - Cancel long-running queries and get warnings before querying large tables
+- **Copy & Paste Rows** - Duplicate data with keyboard shortcuts (⌘C/Ctrl+C and ⌘V/Ctrl+V)
+- **Export Query Results** - Export query results in CSV, JSON, and SQL formats
+- **Cancellable Imports** - Stop long-running imports with one click and minimize dialog to keep working
 - **Intuitive Interface** - Beautiful dark/light themes with native platform integration
 - **SSH Tunneling** - Secure connections with SSH key support
 - **Data Import/Export** - CSV, JSON, SQL formats with Gzip compression
 - **Real-Time Editing** - Inline cell editing with change tracking
-- **Smart Persistence** - Cursor position and database selection automatically saved
+- **Smart Persistence** - Connections, cursor position, and database selection automatically saved
 
 ### AI-Powered Features
 - **Natural Language SQL** - Convert plain English to SQL queries
