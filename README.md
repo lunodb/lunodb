@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.9.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.9.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.9.0:** Copy and paste rows with keyboard shortcuts, export query results in multiple formats, and run multiple SQL queries in one editor. Your connections and work are saved automatically.
+**✨ NEW in v1.9.1:** Your filters and unsaved changes are now saved automatically, even when switching tables or restarting the app. Table tabs show clear indicators when you have unsaved edits.
 
 ## Download
 
