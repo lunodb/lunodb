@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.9.3-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.10.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.9.3:** See how long your queries take with a real-time timer, track progress when saving changes, and enjoy filters that stay visible when switching tabs. The AI is smarter at understanding which table you're working with.
+**✨ NEW in v1.10.0:** Visualize your data with AI-powered graph generation and custom SQL charts. Create line, bar, area, and pie charts with custom colors. Graphs are automatically backed up with your data and restored together.
 
 ## Download
 
@@ -46,6 +46,15 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Smart Filtering** - Create complex filters using natural language
 - **Multi-Provider Support** - OpenAI GPT-4/5, Anthropic Claude, Google Gemini
 - **Schema-Aware** - AI understands your database structure
+
+### Data Visualization
+- **AI Graph Generation** - Let AI create charts based on your data
+- **Custom SQL Charts** - Build visualizations using your own SQL queries
+- **Multiple Chart Types** - Line, bar, area, and pie charts
+- **Custom Color Schemes** - Personalize charts to match your style
+- **Smart Date Formatting** - Automatic date handling in time-series visualizations
+- **Graph Management** - Create, edit, view, and delete graphs per connection
+- **Backup & Restore** - Graphs saved with backups and restored together
 
 ### Performance & Security
 - **Virtual Scrolling** - Handle large datasets efficiently
