@@ -57,7 +57,6 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Backup & Restore** - Graphs saved with backups and restored together
 
 ### Performance & Security
-- **Virtual Scrolling** - Handle large datasets efficiently
 - **Connection Pooling** - Smart connection management
 - **SSL/TLS Support** - Encrypted database connections
 - **Secure Storage** - Encrypted credential storage
