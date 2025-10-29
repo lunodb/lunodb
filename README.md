@@ -50,7 +50,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 ### Data Visualization
 - **AI Graph Generation** - Let AI create charts based on your data
 - **Custom SQL Charts** - Build visualizations using your own SQL queries
-- **Multiple Chart Types** - Line, bar, area, and pie charts
+- **Multiple Chart Types** - 5 chart types: line, bar, area, pie, and scatter
 - **Custom Color Schemes** - Personalize charts to match your style
 - **Smart Date Formatting** - Automatic date handling in time-series visualizations
 - **Graph Management** - Create, edit, view, and delete graphs per connection
@@ -99,7 +99,8 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 
 We encourage users who find LunoDB helpful to consider purchasing a Pro license to support ongoing development and help us build more features.
 
-**[Purchase Pro License - $39](https://lunodb.app/pricing)**
+**[Purchase Pro License - $39 (Single device)](https://lunodb.app/#pricing)**
+**[Purchase Pro License - $59 (Up to 3 device(s))](https://lunodb.app/#pricing)**
 
 ## Documentation & Support
 
