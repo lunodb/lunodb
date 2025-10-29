@@ -101,7 +101,7 @@ We encourage users who find LunoDB helpful to consider purchasing a Pro license 
 
 **[Purchase Pro License - $39 (Single device)](https://lunodb.app/#pricing)**
 
-**[Purchase Pro License - $59 (Up to 3 device(s))](https://lunodb.app/#pricing)**
+**[Purchase Pro License Bundle - $59 [Up to 3 device(s])](https://lunodb.app/#pricing)**
 
 ## Documentation & Support
 
