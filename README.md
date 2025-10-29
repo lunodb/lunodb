@@ -100,6 +100,7 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 We encourage users who find LunoDB helpful to consider purchasing a Pro license to support ongoing development and help us build more features.
 
 **[Purchase Pro License - $39 (Single device)](https://lunodb.app/#pricing)**
+
 **[Purchase Pro License - $59 (Up to 3 device(s))](https://lunodb.app/#pricing)**
 
 ## Documentation & Support
