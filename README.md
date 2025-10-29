@@ -113,7 +113,8 @@ We encourage users who find LunoDB helpful to consider purchasing a Pro license 
 
 **Email:** support@lunodb.app
 **Website:** https://lunodb.app
-**Twitter:** [@lunodb_app](https://x.com/lunodb_app)
+**X (Twitter):** [@lunodb_app](https://x.com/lunodb_app)
+**LinkedIn:** [LunoDB](https://www.linkedin.com/company/lunodb)
 
 ---
 
