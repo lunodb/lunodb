@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.10.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.10.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.10.1:** Enhanced data visualization with multi-query graph support and smart chart suggestions. Drag files directly into the import dialog, and let columns automatically resize to fit their content. MongoDB gets better date handling and improved context menus.
+**✨ NEW in v1.10.2:** Copy and paste now respects your license tier for better data protection. Get a safety confirmation before deleting tables, and enjoy database-specific SQL export quoting that works perfectly when importing to MySQL, PostgreSQL, or SQL Server.
 
 ## Download
 
@@ -31,7 +31,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, and Redis
 - **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
 - **Query Control** - Cancel long-running queries and get warnings before querying large tables
-- **Copy & Paste Rows** - Duplicate data with keyboard shortcuts (⌘C/Ctrl+C and ⌘V/Ctrl+V)
+- **Copy & Paste Rows** - Duplicate data with keyboard shortcuts (⌘C/Ctrl+C and ⌘V/Ctrl+V) - Pro feature
 - **Export Query Results** - Export query results in CSV, JSON, and SQL formats
 - **Drag & Drop Imports** - Drop SQL files directly into the import dialog for instant imports
 - **Smart Column Sizing** - Columns automatically resize to fit content perfectly
@@ -94,6 +94,7 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 | Feature | Free | Pro ($39) |
 |---------|------|-----------|
 | Database Connections | Up to 2 | Unlimited |
+| Copy & Paste Inserts | ✗ | ✓ |
 | SSH Tunnels | ✓ | ✓ |
 | AI Features | ✓ | ✓ |
 | Query Editor | ✓ | ✓ |
@@ -103,9 +104,9 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 
 We encourage users who find LunoDB helpful to consider purchasing a Pro license to support ongoing development and help us build more features.
 
-**[Purchase Pro License - $39 (Single device)](https://lunodb.app/#pricing)**
+**[Purchase Pro License - $39 (1 device)](https://lunodb.app/purchase?type=single)**
 
-**[Purchase Pro License Bundle - $59 (Up to 3 devices)](https://lunodb.app/#pricing)**
+**[Purchase Pro Bundle - $59 (Up to 3 devices)](https://lunodb.app/purchase?type=bundle)**
 
 ## Documentation & Support
 
