@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.10.5-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.11.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.10.5:** Row counts and storage sizes automatically refresh after importing data or truncating tables, SQL exports are more readable with better formatting and character handling, exported files import more reliably into other MySQL databases, and the import dialog clears error messages automatically when you close it.
+**✨ NEW in v1.11.0:** Visualize your database relationships with interactive schema diagrams you can export as images, work in multiple workspace windows simultaneously for true parallel workflows, enjoy audio feedback for connections and queries, and experience platform-aware keyboard shortcuts that automatically adapt to your operating system.
 
 ## Download
 
@@ -59,6 +59,16 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Smart Date Formatting** - Automatic date handling in time-series visualizations
 - **Graph Management** - Create, edit, duplicate, and delete graphs per connection
 - **Backup & Restore** - Graphs saved with backups and restored together
+
+### Workspace & Schema Visualization
+- **Schema Relationship Diagrams** - Interactive visualization of tables and their foreign key relationships
+- **Drag-and-Drop Layout** - Automatic layout with manual repositioning support
+- **Export Diagrams** - Export schema diagrams as high-quality images for documentation
+- **Multiple Workspaces** - Open multiple independent workspace windows for parallel workflows
+- **Smart Session Restoration** - Each workspace remembers its connections and open tabs
+- **Isolated State** - Work on dev, staging, and production databases side-by-side with no interference
+- **Audio Feedback** - Subtle sound effects for connections and query execution (can be disabled)
+- **Platform-Aware Shortcuts** - Keyboard shortcuts automatically use ⌘ on macOS, Ctrl on Windows/Linux
 
 ### Performance & Security
 - **Connection Pooling** - Smart connection management
