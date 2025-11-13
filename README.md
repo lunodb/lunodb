@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.11.4-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.12.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.11.4:** Select smarter with improved multi-row selection - range selections (Shift+Click) work exactly as expected. Notifications appear in better spots that don't block important buttons, making your workflow smoother and more polished.
+**✨ NEW in v1.12.0:** Watch your queries execute in real-time with streaming progress tracking, expand large text fields instantly with one click, and minimize exports to keep working. Better loading indicators and smarter workspace handling make everything feel more responsive.
 
 ## Download
 
@@ -30,11 +30,14 @@ LunoDB is a professional-grade, cross-platform database management client design
 ### Core Features
 - **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, and Redis
 - **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
+- **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
 - **Query Control** - Cancel long-running queries and get warnings before querying large tables
+- **Expandable Text Fields** - View large text content with one click in SQL and Table views
 - **Copy & Paste Rows** - Duplicate data with keyboard shortcuts (⌘C/Ctrl+C and ⌘V/Ctrl+V) - Pro feature
 - **Export Query Results** - Export query results in CSV, JSON, and SQL formats
 - **Drag & Drop Imports** - Drop SQL files directly into the import dialog for instant imports
 - **Smart Column Sizing** - Columns automatically resize to fit content perfectly
+- **Minimizable Exports** - Minimize Export Database dialog to continue working while exports run in the background
 - **Cancellable Imports** - Stop long-running imports with one click and minimize dialog to keep working
 - **Intuitive Interface** - Beautiful dark/light themes with native platform integration
 - **SSH Tunneling** - Secure connections with SSH key support
