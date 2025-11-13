@@ -5,7 +5,7 @@
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.12.0:** Watch your queries execute in real-time with streaming progress tracking, expand large text fields instantly with one click, and minimize exports to keep working. Better loading indicators and smarter workspace handling make everything feel more responsive.
+**✨ NEW in v1.12.0:** Watch queries run in real-time with progress tracking, expand large text instantly with one click, and minimize exports to keep working. Get warned before losing unsaved changes, toggle multi-query mode on/off, and enjoy beautiful markdown release notes. Report issues directly from the Help menu.
 
 ## Download
 
@@ -32,6 +32,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
 - **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
 - **Query Control** - Cancel long-running queries and get warnings before querying large tables
+- **Multi-Query Toggle** - Show or hide multi-query input as needed for cleaner workspace
+- **Unsaved Changes Protection** - Get warned before switching tabs with unsaved SQL changes
 - **Expandable Text Fields** - View large text content with one click in SQL and Table views
 - **Copy & Paste Rows** - Duplicate data with keyboard shortcuts (⌘C/Ctrl+C and ⌘V/Ctrl+V) - Pro feature
 - **Export Query Results** - Export query results in CSV, JSON, and SQL formats
@@ -39,6 +41,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Smart Column Sizing** - Columns automatically resize to fit content perfectly
 - **Minimizable Exports** - Minimize Export Database dialog to continue working while exports run in the background
 - **Cancellable Imports** - Stop long-running imports with one click and minimize dialog to keep working
+- **Markdown Release Notes** - Beautiful formatted release notes with code blocks, tables, and links
 - **Intuitive Interface** - Beautiful dark/light themes with native platform integration
 - **SSH Tunneling** - Secure connections with SSH key support
 - **Data Import/Export** - CSV, JSON, SQL formats with Gzip compression
