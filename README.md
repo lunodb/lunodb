@@ -53,7 +53,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Natural Language SQL** - Convert plain English to SQL queries
 - **AI Chat Assistant** - Database-aware AI assistant
 - **Smart Filtering** - Create complex filters using natural language
-- **Multi-Provider Support** - OpenAI GPT-4/5, Anthropic Claude, Google Gemini
+- **Multi-Provider Support** - OpenAI (GPT-5.1, GPT-5, GPT-4), Anthropic Claude, Google Gemini
 - **Schema-Aware** - AI understands your database structure
 
 ### Data Visualization
