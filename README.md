@@ -77,7 +77,6 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Platform-Aware Shortcuts** - Keyboard shortcuts automatically use ⌘ on macOS, Ctrl on Windows/Linux
 
 ### Performance & Security
-- **Connection Pooling** - Smart connection management
 - **SSL/TLS Support** - Encrypted database connections
 - **Secure Storage** - Encrypted credential storage
 
