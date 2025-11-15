@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.12.2-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.13.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.12.2:** Export massive datasets without running out of memory. DELETE and UPDATE operations are safer with primary key checks. GPT-5.1 support for better SQL generation. Faster exports with batch processing and optimized performance throughout.
+**✨ NEW in v1.13.0:** See how many rows you've selected in real-time. View your SQL history in a popup with syntax highlighting. Refresh tables and graphs with Cmd+R / Ctrl+R keyboard shortcuts. Connection settings save between sessions automatically. AppImage download option for Linux users.
 
 ## Download
 
@@ -13,7 +13,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 - **macOS** - Apple Silicon & Intel
 - **Windows** - x64 & ARM64
-- **Linux** - Debian & RPM packages
+- **Linux** - AppImage, Debian & RPM packages
 
 ## Supported Databases
 
@@ -30,6 +30,11 @@ LunoDB is a professional-grade, cross-platform database management client design
 ### Core Features
 - **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, and Redis
 - **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
+- **SQL History Viewer** - View your SQL queries in a popup window with syntax highlighting
+- **Selected Row Counter** - See how many rows you've selected in real-time when working with large datasets
+- **Keyboard Shortcuts** - Refresh tables and graphs with Cmd+R (Mac) or Ctrl+R (Windows/Linux)
+- **Persistent Settings** - Connection settings and keep-alive preferences save between sessions automatically
+- **View Preference Memory** - App remembers if you prefer table view or grid view
 - **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
 - **Query Control** - Cancel long-running queries and get warnings before querying large tables
 - **Multi-Query Toggle** - Show or hide multi-query input as needed for cleaner workspace
@@ -42,7 +47,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Minimizable Exports** - Minimize Export Database dialog to continue working while exports run in the background
 - **Cancellable Imports** - Stop long-running imports with one click and minimize dialog to keep working
 - **Markdown Release Notes** - Beautiful formatted release notes with code blocks, tables, and links
-- **Intuitive Interface** - Beautiful dark/light themes with native platform integration
+- **Intuitive Interface** - Beautiful dark/light themes with custom-styled scrollbars and native platform integration
+- **Localized Numbers** - Numbers display in your local format with readable pagination (e.g., "1,000" vs "1000")
 - **SSH Tunneling** - Secure connections with SSH key support
 - **Data Import/Export** - CSV, JSON, SQL formats with Gzip compression
 - **Real-Time Editing** - Inline cell editing with change tracking
@@ -67,11 +73,11 @@ LunoDB is a professional-grade, cross-platform database management client design
 - **Backup & Restore** - Graphs saved with backups and restored together
 
 ### Workspace & Schema Visualization
-- **Schema Relationship Diagrams** - Interactive visualization of tables and their foreign key relationships
-- **Drag-and-Drop Layout** - Automatic layout with manual repositioning support
+- **Schema Relationship Diagrams** - Interactive visualization of tables and their foreign key relationships with improved spacing
+- **Drag-and-Drop Layout** - Automatic layout with manual repositioning support and no overlapping elements
 - **Export Diagrams** - Export schema diagrams as high-quality images for documentation
 - **Multiple Workspaces** - Open multiple independent workspace windows for parallel workflows
-- **Smart Session Restoration** - Each workspace remembers its connections and open tabs
+- **Smart Session Restoration** - Each workspace remembers its connections and open tabs, restoring them correctly on startup
 - **Isolated State** - Work on dev, staging, and production databases side-by-side with no interference
 - **Audio Feedback** - Subtle sound effects for connections and query execution (can be disabled)
 - **Platform-Aware Shortcuts** - Keyboard shortcuts automatically use ⌘ on macOS, Ctrl on Windows/Linux
