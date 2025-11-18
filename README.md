@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.13.2-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.14.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.13.2:** Refined and responsive. This release enhances notifications with visual feedback (progress bars and hover-to-pause), improves change tracking with before/after comparison for UPDATE operations, delivers smoother connection handling (faster switching, quick deletions, smarter reconnections), ensures cross-database compatibility with better name handling and quoted identifiers, and polishes the interface with better insert dialogs, pagination with page counts, and precise execution times.
+**✨ NEW in v1.14.0:** Four AI providers at your fingertips. Choose from Grok, Claude, GPT, or Gemini for AI-powered SQL generation. Your AI conversations save automatically between sessions, notifications pause when you hover over them and show progress bars for long operations, and you can compare old and new values side-by-side before saving updates. Connections are more reliable with better health monitoring, keyboard shortcuts work better throughout the app, and Linux updates show release notes automatically.
 
 ## Download
 
@@ -71,9 +71,9 @@ All versions include in-app release notes and update notifications to keep you i
 
 ### AI-Powered Features
 - **Natural Language SQL** - Convert plain English to SQL queries
-- **AI Chat Assistant** - Database-aware AI assistant
+- **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
-- **Multi-Provider Support** - OpenAI (GPT-5.1, GPT-5, GPT-4), Anthropic Claude, Google Gemini
+- **Multi-Provider Support** - OpenAI (ChatGPT), Anthropic (Claude), Google (Gemini), Grok (xAI)
 - **Schema-Aware** - AI understands your database structure
 
 ### Data Visualization
