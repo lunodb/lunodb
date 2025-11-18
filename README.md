@@ -5,7 +5,7 @@
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.13.2:** Notifications show a progress bar so you know when they'll disappear. Hover over notifications to pause and read them at your own pace. See what changed in UPDATE operations with before/after comparison. Table and column names work correctly across all database types.
+**✨ NEW in v1.13.2:** Refined and responsive. This release enhances notifications with visual feedback (progress bars and hover-to-pause), improves change tracking with before/after comparison for UPDATE operations, delivers smoother connection handling (faster switching, quick deletions, smarter reconnections), ensures cross-database compatibility with better name handling and quoted identifiers, and polishes the interface with better insert dialogs, pagination with page counts, and precise execution times.
 
 ## Download
 
