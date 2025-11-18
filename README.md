@@ -11,9 +11,23 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 [**Download Latest Release**](https://github.com/lunodb/lunodb/releases/latest)
 
-- **macOS** - Apple Silicon & Intel
-- **Windows** - x64 & ARM64
-- **Linux** - AppImage, Debian & RPM packages
+- **macOS** - Apple Silicon & Intel (fully automatic updates)
+- **Windows** - x64 & ARM64 (fully automatic updates)
+- **Linux**:
+  - **AppImage** - Fully automatic updates (recommended)
+  - **DEB Package** - Semi-automatic updates (requires password)
+  - **RPM Package** - Manual updates via GitHub
+
+## Auto-Updates
+
+LunoDB includes built-in update notifications with varying levels of automation by platform:
+
+- **macOS & Windows** - Fully automatic: downloads and installs updates seamlessly in the background
+- **Linux AppImage** - Fully automatic: installs updates without requiring passwords or system permissions
+- **Linux DEB** - Semi-automatic: downloads updates automatically, but requires your password to install (via system authentication)
+- **Linux RPM** - Manual: notifies you of new versions and directs you to download from GitHub releases
+
+All versions include in-app release notes and update notifications to keep you informed of new features and improvements.
 
 ## Supported Databases
 
