@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.14.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.15.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.14.0:** Four AI providers at your fingertips. Choose from Grok, Claude, GPT, or Gemini for AI-powered SQL generation. Your AI conversations save automatically between sessions, notifications pause when you hover over them and show progress bars for long operations, and you can compare old and new values side-by-side before saving updates. Connections are more reliable with better health monitoring, keyboard shortcuts work better throughout the app, and Linux updates show release notes automatically.
+**✨ NEW in v1.15.0:** Speak your SQL queries with voice dictation powered by OpenAI's Whisper. Create and manage databases directly from the connection dialog without external tools. Add and edit columns faster with streamlined forms and inline editing. Run multiple SQL statements at once and toggle visibility of individual results. Enhanced AI with Gemini 3 Pro support, expanded tutorials for all databases, theme-aware error pages, and more reliable connections with improved performance throughout.
 
 ## Download
 
