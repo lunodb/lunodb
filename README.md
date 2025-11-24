@@ -5,7 +5,7 @@
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.15.3:** Scroll through hundreds of tables smoothly without lag, tabs automatically scroll into view when you switch tables, and database selection is now required for non-SQLite connections to prevent errors.
+**✨ NEW in v1.15.3:** Scroll through hundreds of tables smoothly, see the exact SQL query executed in table views, and use Claude Opus 4.5 for all AI features. Tabs automatically scroll into view and exports include timestamps for better file organization.
 
 ## Download
 
@@ -50,6 +50,8 @@ All versions include in-app release notes and update notifications to keep you i
 - **Persistent Settings** - Connection settings and keep-alive preferences save between sessions automatically
 - **View Preference Memory** - App remembers if you prefer table view or grid view
 - **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
+- **Last Executed Query Display** - Table views show the exact SQL query that was executed for full visibility
+- **Table Analysis** - Identify opportunities for query optimization with the new table analysis feature
 - **Query Control** - Cancel long-running queries and get warnings before querying large tables
 - **Multi-Query Toggle** - Show or hide multi-query input as needed for cleaner workspace
 - **Unsaved Changes Protection** - Get warned before switching tabs with unsaved SQL changes
@@ -65,6 +67,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Localized Numbers** - Numbers display in your local format with readable pagination (e.g., "1,000" vs "1000")
 - **SSH Tunneling** - Secure connections with SSH key support
 - **Data Import/Export** - CSV, JSON, SQL formats with Gzip compression
+- **Timestamped Exports** - Export filenames include formatted timestamps for better file organization
 - **Real-Time Editing** - Inline cell editing with change tracking
 - **Smart Persistence** - Connections, cursor position, and database selection automatically saved
 - **Enhanced MongoDB Support** - Proper Extended JSON date format and improved context menus
@@ -73,7 +76,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Natural Language SQL** - Convert plain English to SQL queries
 - **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
-- **Multi-Provider Support** - OpenAI (ChatGPT), Anthropic (Claude), Google (Gemini), Grok (xAI)
+- **Multi-Provider Support** - OpenAI (ChatGPT), Anthropic (Claude with Opus 4.5), Google (Gemini), Grok (xAI)
 - **Schema-Aware** - AI understands your database structure
 
 ### Data Visualization
