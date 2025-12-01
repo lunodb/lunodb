@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.17.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.18.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.17.0:** Connect to Turso (LibSQL) databases natively, try all Pro features free for 14 days, and track every query with the new Query Log Panel. Drag and drop to reorder connections, and enjoy database-specific logos throughout the app.
+**✨ NEW in v1.18.0:** Smart tab memory management automatically unloads old tabs to reduce memory usage, while keeping your most-used tabs instantly accessible. SQL query results now sort dates and numbers more intuitively, and Windows updates are streamlined with in-app notifications.
 
 ## Download
 
