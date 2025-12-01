@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.16.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.17.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.16.1:** Customize font sizes across table views and SQL queries for better readability. Tabs now restore correctly after restarting, drag horizontally without distortion, and save errors show specific details instead of generic messages.
+**✨ NEW in v1.17.0:** Connect to Turso (LibSQL) databases natively, try all Pro features free for 14 days, and track every query with the new Query Log Panel. Drag and drop to reorder connections, and enjoy database-specific logos throughout the app.
 
 ## Download
 
@@ -38,15 +38,18 @@ All versions include in-app release notes and update notifications to keep you i
 🏢 **SQL Server** - SQL Server 2016+, Azure SQL
 🍃 **MongoDB** - MongoDB 4.0+, Atlas
 🔴 **Redis** - Redis 6.0+, Redis Cloud
+🪶 **Turso** - LibSQL databases with full support
 
 ## Features
 
 ### Core Features
-- **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, and Redis
+- **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
 - **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
 - **SQL History Viewer** - View your SQL queries in a popup window with syntax highlighting
 - **Selected Row Counter** - See how many rows you've selected in real-time when working with large datasets
+- **Query Log Panel** - Track every query with execution time, status, and error messages (Pro feature)
 - **Keyboard Shortcuts** - Refresh tables and graphs with Cmd+R (Mac) or Ctrl+R (Windows/Linux)
+- **Drag-and-Drop Connection Ordering** - Reorder saved connections by dragging, with order persisting across sessions
 - **Persistent Settings** - Connection settings and keep-alive preferences save between sessions automatically
 - **View Preference Memory** - App remembers if you prefer table view or grid view
 - **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
@@ -129,10 +132,14 @@ All versions include in-app release notes and update notifications to keep you i
 
 LunoDB is **free to use** with no time restrictions for personal and commercial use.
 
+**🎁 14-Day Pro Trial** - Try all Pro features free for 14 days with a simple email signup. No credit card required.
+
 | Feature | Free | Pro ($39) |
 |---------|------|-----------|
 | Database Connections | Up to 2 | Unlimited |
 | Copy & Paste Inserts | ✗ | ✓ |
+| Query Log Panel | ✗ | ✓ |
+| SQL History | Limited | Unlimited |
 | SSH Tunnels | ✓ | ✓ |
 | AI Features | ✓ | ✓ |
 | Query Editor | ✓ | ✓ |
