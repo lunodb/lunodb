@@ -5,7 +5,7 @@
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.19.2:** Better data editing with smarter timestamp validation and display. Context-aware tab restoration remembers your tables when switching connections. Streamlined table exports are now more user-friendly.
+**✨ NEW in v1.19.2:** Better data editing with smarter timestamp validation and display. Context-aware tab restoration remembers your tables when switching connections. Streamlined table exports are now more user-friendly. Command palette now includes options to clear recent items.
 
 ## Download
 
