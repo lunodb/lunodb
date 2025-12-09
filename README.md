@@ -5,7 +5,7 @@
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.19.5:** Show CREATE TABLE now fetches the exact statement from MySQL/MariaDB with foreign keys, collation, and AUTO_INCREMENT values. Smarter exports handle large text columns without memory issues.
+**✨ NEW in v1.19.5:** Connect to databases faster from the File menu and Command Palette. Show CREATE TABLE fetches the exact statement from MySQL/MariaDB. Smarter exports handle large text columns without memory issues.
 
 ## Download
 
