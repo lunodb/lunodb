@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.19.4-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.19.5-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.19.4:** Import huge SQL files without running out of memory with the new streaming import engine. Edit tables that don't have primary keys. Get performance warnings when sorting on columns without indexes.
+**✨ NEW in v1.19.5:** Show CREATE TABLE now fetches the exact statement from MySQL/MariaDB with foreign keys, collation, and AUTO_INCREMENT values. Smarter exports handle large text columns without memory issues.
 
 ## Download
 
