@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.23.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.23.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.23.0:** Transfer data to your phone with a QR code, back up and restore databases with password protection, and enjoy smoother workflows with Enter key support in dialogs and exact page navigation.
+**✨ NEW in v1.23.1:** Edit enum and set fields directly with a dropdown picker. Select from available values, set NULL, or apply defaults - now available in both table view and query results.
 
 ## Download
 
