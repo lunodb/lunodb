@@ -137,36 +137,44 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 
 **🎁 14-Day Pro Trial** - Try all Pro features free for 14 days with a simple email signup. No credit card required.
 
-| Feature | Free | Pro ($39) |
-|---------|------|-----------|
+### Subscription Plans
+
+| Plan | Monthly | Annual | Savings |
+|------|---------|--------|---------|
+| **Pro License** (1 device) | $5.99/month | $39/year | 46% |
+| **Pro Bundle** (up to 3 devices) | $9.99/month | $59/year | 51% |
+
+### Feature Comparison
+
+| Feature | Free | Pro |
+|---------|------|-----|
 | Database Connections | Up to 2 | Unlimited |
-| Copy & Paste Inserts | ✗ | ✓ |
-| Query Log Panel | ✗ | ✓ |
+| Monaco Editor | ✗ | ✓ |
+| Export (CSV, JSON, SQL) | ✗ | ✓ |
 | SQL History | Limited | Unlimited |
-| SSH Tunnels | ✓ | ✓ |
-| AI Features | ✓ | ✓ |
+| Graphs & Visualizations | ✗ | ✓ |
+| AI Features | ✗ | ✓ |
+| SSH Tunnels | ✗ | ✓ |
+| SSL/TLS Connections | ✗ | ✓ |
 | Query Editor | ✓ | ✓ |
-| Import/Export | ✓ | ✓ |
 | Priority Support | ✗ | ✓ |
 | Commercial Use | ✓ | ✓ |
 
-We encourage users who find LunoDB helpful to consider purchasing a Pro license to support ongoing development and help us build more features.
+We encourage users who find LunoDB helpful to consider subscribing to Pro to support ongoing development and help us build more features.
 
-**[Purchase Pro License - $39 (1 device)](https://lunodb.app/purchase?type=single)**
-
-**[Purchase Pro Bundle - $59 (Up to 3 devices)](https://lunodb.app/purchase?type=bundle)**
+**[Subscribe to Pro](https://lunodb.app/subscribe)** | **[One-time Purchase](https://lunodb.app/purchase)**
 
 ## LunoDB Mobile
 
-**Coming Q1 2026** - Take your database management on the go with LunoDB Mobile for iOS and Android.
+**Coming Q1 2026** - Take your database management on the go with LunoDB Mobile for iOS and Android. **Completely free to use.**
 
 ### Planned Features
-- **Full Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
-- **Seamless Sync** - Sync connections and settings with LunoDB Desktop
+- **Full Database Support** - Connect to MySQL, PostgreSQL, SQLite, and MariaDB
+- **Seamless Sync** - QR code sync with LunoDB Desktop
 - **Query Editor** - Write and execute queries with mobile-optimized interface
-- **Secure Connections** - SSL/TLS and SSH tunneling support
-- **Offline Mode** - Work with SQLite databases without an internet connection
+- **Secure Connections** - Connect securely via LunoDB Cloud
 - **AI Assistant** - Natural language SQL generation on mobile
+- **Visualizations** - Charts, graphs, and ER diagrams on the go
 
 Stay tuned for updates and early access announcements on our [X (Twitter)](https://x.com/lunodb_app) and [website](https://lunodb.app).
 
