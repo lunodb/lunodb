@@ -7,6 +7,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 **✨ NEW in v1.23.1:** Edit enum and set fields directly with a dropdown picker. Select from available values, set NULL, or apply defaults - now available in both table view and query results.
 
+**Coming Q1 2026: LunoDB Mobile** - Manage your databases on the go with our new iOS and Android app. [Learn more](#lunodb-mobile)
+
 ## Download
 
 [**Download Latest Release**](https://github.com/lunodb/lunodb/releases/latest)
@@ -154,6 +156,20 @@ We encourage users who find LunoDB helpful to consider purchasing a Pro license 
 
 **[Purchase Pro Bundle - $59 (Up to 3 devices)](https://lunodb.app/purchase?type=bundle)**
 
+## LunoDB Mobile
+
+**Coming Q1 2026** - Take your database management on the go with LunoDB Mobile for iOS and Android.
+
+### Planned Features
+- **Full Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
+- **Seamless Sync** - Sync connections and settings with LunoDB Desktop
+- **Query Editor** - Write and execute queries with mobile-optimized interface
+- **Secure Connections** - SSL/TLS and SSH tunneling support
+- **Offline Mode** - Work with SQLite databases without an internet connection
+- **AI Assistant** - Natural language SQL generation on mobile
+
+Stay tuned for updates and early access announcements on our [X (Twitter)](https://x.com/lunodb_app) and [website](https://lunodb.app).
+
 ## Documentation & Support
 
 - **Documentation** - [GitHub Wiki](https://github.com/lunodb/lunodb/wiki)
@@ -169,4 +185,4 @@ We encourage users who find LunoDB helpful to consider purchasing a Pro license 
 
 ---
 
-**© 2025 LunoDB** • Made with ❤️ for developers
+**© 2025-2026 LunoDB** • Made with ❤️ for developers
