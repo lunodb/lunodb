@@ -162,7 +162,7 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 
 We encourage users who find LunoDB helpful to consider subscribing to Pro to support ongoing development and help us build more features.
 
-**[Subscribe to Pro](https://lunodb.app/subscribe)** | **[One-time Purchase](https://lunodb.app/purchase)**
+**[Subscribe to Pro](https://lunodb.app/subscribe)**
 
 ## LunoDB Mobile
 
@@ -176,7 +176,7 @@ We encourage users who find LunoDB helpful to consider subscribing to Pro to sup
 - **AI Assistant** - Natural language SQL generation on mobile
 - **Visualizations** - Charts, graphs, and ER diagrams on the go
 
-Stay tuned for updates and early access announcements on our [X (Twitter)](https://x.com/lunodb_app) and [website](https://lunodb.app).
+Stay tuned for updates and early access announcements on our [X](https://x.com/lunodb_app) and [website](https://lunodb.app).
 
 ## Documentation & Support
 
@@ -188,7 +188,7 @@ Stay tuned for updates and early access announcements on our [X (Twitter)](https
 
 **Email:** support@lunodb.app
 **Website:** https://lunodb.app
-**X (Twitter):** [@lunodb_app](https://x.com/lunodb_app)
+**X:** [@lunodb_app](https://x.com/lunodb_app)
 **LinkedIn:** [LunoDB](https://www.linkedin.com/company/lunodb)
 
 ---
