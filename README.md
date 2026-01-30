@@ -52,6 +52,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Query Log Panel** - Track every query with execution time, status, and error messages (Pro feature)
 - **Keyboard Shortcuts** - Refresh tables and graphs with Cmd+R (Mac) or Ctrl+R (Windows/Linux)
 - **Drag-and-Drop Connection Ordering** - Reorder saved connections by dragging, with order persisting across sessions
+- **Transfer to Mobile** - QR code sync to instantly transfer connections and graphs to LunoDB Mobile
 - **Persistent Settings** - Connection settings and keep-alive preferences save between sessions automatically
 - **View Preference Memory** - App remembers if you prefer table view or grid view
 - **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
@@ -168,15 +169,25 @@ We encourage users who find LunoDB helpful to consider subscribing to Pro to sup
 
 **Coming Q1 2026** - Take your database management on the go with LunoDB Mobile for iOS and Android. **Completely free to use.**
 
-### Planned Features
-- **Full Database Support** - Connect to MySQL, PostgreSQL, SQLite, and MariaDB
-- **Seamless Sync** - QR code sync with LunoDB Desktop
+### Features
+- **6 Database Types** - MySQL, PostgreSQL, MariaDB, SQLite, Turso, and more coming soon
+- **Direct Connections** - Turso connects directly via HTTPS, SQLite works locally - no proxy needed
+- **SQLite File Import** - Import existing .db, .sqlite, and .sqlite3 files from your device or cloud storage
+- **QR Code Sync** - Instantly transfer all connections and graphs from LunoDB Desktop
 - **Query Editor** - Write and execute queries with mobile-optimized interface
-- **Secure Connections** - Connect securely via LunoDB Cloud
-- **AI Assistant** - Natural language SQL generation on mobile
+- **AI Assistant** - Natural language SQL generation with your own API keys
 - **Visualizations** - Charts, graphs, and ER diagrams on the go
+- **Secure Connections** - MySQL, PostgreSQL, and MariaDB connect via LunoDB Cloud proxy
 
-Stay tuned for updates and early access announcements on our [X](https://x.com/lunodb_app) and [website](https://lunodb.app).
+### Connection Types
+
+| Database | Connection Method |
+|----------|------------------|
+| MySQL, PostgreSQL, MariaDB | Via LunoDB Cloud (secure proxy) |
+| Turso | Direct HTTPS (no proxy) |
+| SQLite | Local files on device |
+
+Stay tuned for updates and early access announcements on our [X](https://x.com/lunodb_app) and [website](https://lunodb.app/mobile).
 
 ## Documentation & Support
 
