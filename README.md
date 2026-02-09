@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.24.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.24.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.24.1:** Performance improvements for large query results, streaming CSV exports that handle any dataset size, and better Turso mobile transfer support.
+**✨ NEW in v1.24.2:** Fix for editing filtered query results and smoother performance when selecting and scrolling through large result sets.
 
 **Coming Q1 2026: LunoDB Mobile** - Manage your databases on the go with our new iOS and Android app. [Learn more](#lunodb-mobile)
 
