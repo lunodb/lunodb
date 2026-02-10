@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.24.3-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.25.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.24.3:** Smarter sidebar search that finds values (not just column names) and a fix for editing primary key columns.
+**✨ NEW in v1.25.0:** The newest AI models (Claude Opus 4.6 and GPT-5.3 Codex), a better mobile export experience, and faster app updates.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -82,7 +82,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Natural Language SQL** - Convert plain English to SQL queries
 - **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
-- **8 AI Providers** - OpenAI (GPT-5.2), Anthropic (Claude), Google (Gemini), Grok, DeepSeek, OpenRouter, Ollama, Custom
+- **8 AI Providers** - OpenAI (GPT-5.3 Codex), Anthropic (Claude Opus 4.6), Google (Gemini), Grok, DeepSeek, OpenRouter, Ollama, Custom
 - **Thinking & Effort Controls** - Configure reasoning depth for supported models
 - **Schema-Aware** - AI understands your database structure
 
