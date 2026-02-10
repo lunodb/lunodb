@@ -7,7 +7,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 **✨ NEW in v1.24.3:** Smarter sidebar search that finds values (not just column names) and a fix for editing primary key columns.
 
-**Coming Q1 2026: LunoDB Mobile** - Manage your databases on the go with our new iOS and Android app. [Learn more](#lunodb-mobile)
+**LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
 ## Download
 
@@ -167,17 +167,22 @@ We encourage users who find LunoDB helpful to consider subscribing to Pro to sup
 
 ## LunoDB Mobile
 
-**Coming Q1 2026** - Take your database management on the go with LunoDB Mobile for iOS and Android. **Completely free to use.**
+Take your database management on the go with LunoDB Mobile. **Available now on iOS, completely free.**
+
+[![Download on the App Store](https://img.shields.io/badge/App_Store-Download-blue?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/lunodb/id6756377885)
+
+Android support is coming soon.
 
 ### Features
-- **6 Database Types** - MySQL, PostgreSQL, MariaDB, SQLite, Turso, and more coming soon
+- **5 Database Types** - MySQL, PostgreSQL, MariaDB, SQLite, and Turso
 - **Direct Connections** - Turso connects directly via HTTPS, SQLite works locally - no proxy needed
 - **SQLite File Import** - Import existing .db, .sqlite, and .sqlite3 files from your device or cloud storage
-- **QR Code Sync** - Instantly transfer all connections and graphs from LunoDB Desktop
+- **QR Code Sync** - Instantly transfer all connections, graphs, and SSH tunnels from LunoDB Desktop
 - **Query Editor** - Write and execute queries with mobile-optimized interface
 - **AI Assistant** - Natural language SQL generation with your own API keys
 - **Visualizations** - Charts, graphs, and ER diagrams on the go
 - **Secure Connections** - MySQL, PostgreSQL, and MariaDB connect via LunoDB Cloud proxy
+- **Biometric Security** - Face ID and fingerprint lock for your connections
 
 ### Connection Types
 
@@ -187,7 +192,7 @@ We encourage users who find LunoDB helpful to consider subscribing to Pro to sup
 | Turso | Direct HTTPS (no proxy) |
 | SQLite | Local files on device |
 
-Stay tuned for updates and early access announcements on our [X](https://x.com/lunodb_app) and [website](https://lunodb.app/mobile).
+Learn more on our [website](https://lunodb.app/mobile) or follow us on [X](https://x.com/lunodb_app) for updates.
 
 ## Documentation & Support
 
