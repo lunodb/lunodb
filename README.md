@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.26.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.26.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.26.1:** Refreshed branding with a redesigned logo, new AI models (Claude Sonnet 4.6, Gemini 3.1 Pro, Grok 4.1 Fast), and platform styling fixes.
+**✨ NEW in v1.26.2:** Redesigned settings with sidebar navigation, multi-column index management, and production delete confirmation for safer data editing.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
