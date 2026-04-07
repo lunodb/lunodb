@@ -5,7 +5,7 @@
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.27.0:** GPT-5.4 support, enhanced Ollama integration with web search and thinking controls, and faster performance across the app.
+**✨ NEW in v1.27.0:** GPT-5.4 support, and a major step forward for private AI — Ollama models now support web search, thinking mode, and sync across the entire app.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -83,8 +83,13 @@ All versions include in-app release notes and update notifications to keep you i
 - **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
 - **8 AI Providers** - OpenAI (GPT-5.4), Anthropic (Claude Opus 4.6, Sonnet 4.6), Google (Gemini 3.1 Pro), Grok 4.1, DeepSeek, OpenRouter, Ollama, Custom
+- **Ollama — Fully Private AI** - Run AI entirely on your machine with no external requests. No API key needed, your data never leaves your device
+- **Ollama Web Search** - Optionally let Ollama models search the web for up-to-date context while keeping your database data private
+- **Ollama Thinking Mode** - Enable extended thinking for deeper reasoning with configurable effort levels
+- **Ollama Model Sync** - Fetched models appear in all AI dropdowns and persist across sessions
 - **Thinking & Effort Controls** - Configure reasoning depth for supported models
 - **Schema-Aware** - AI understands your database structure
+- **Privacy-First** - Only schema metadata is sent to cloud providers — never your actual data. Use Ollama for complete privacy
 
 ### Data Visualization
 - **AI Graph Generation** - Let AI create charts based on your data with intelligent chart type suggestions
@@ -108,7 +113,8 @@ All versions include in-app release notes and update notifications to keep you i
 
 ### Performance & Security
 - **SSL/TLS Support** - Encrypted database connections
-- **Secure Storage** - Encrypted credential storage
+- **Secure Storage** - Encrypted credential storage — API keys and passwords never leave your device
+- **Local AI Option** - Use Ollama for zero external dependencies and full data privacy
 
 ## Screenshots
 
