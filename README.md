@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.27.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.27.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.27.0:** GPT-5.4 support, and a major step forward for private AI — Ollama models now support web search, thinking mode, and sync across the entire app.
+**✨ NEW in v1.27.1:** New AI models from OpenAI, Anthropic, and xAI, polished connection handling, and clearer MySQL import errors.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -82,7 +82,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Natural Language SQL** - Convert plain English to SQL queries
 - **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
-- **8 AI Providers** - OpenAI (GPT-5.4), Anthropic (Claude Opus 4.6, Sonnet 4.6), Google (Gemini 3.1 Pro), Grok 4.1, DeepSeek, OpenRouter, Ollama, Custom
+- **8 AI Providers** - OpenAI (GPT-5.5), Anthropic (Claude Opus 4.7, Sonnet 4.6), Google (Gemini 3.1 Pro), Grok 4.3 & Grok 4.20 Multi-Agent, DeepSeek, OpenRouter, Ollama, Custom
 - **Ollama — Fully Private AI** - Run AI entirely on your machine with no external requests. No API key needed, your data never leaves your device
 - **Ollama Web Search** - Optionally let Ollama models search the web for up-to-date context while keeping your database data private
 - **Ollama Thinking Mode** - Enable extended thinking for deeper reasoning with configurable effort levels
