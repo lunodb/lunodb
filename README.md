@@ -144,12 +144,14 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 
 **🎁 14-Day Pro Trial** - Try all Pro features free for 14 days with a simple email signup. No credit card required.
 
-### Subscription Plans
+### Plans
 
-| Plan | Monthly | Annual | Savings |
-|------|---------|--------|---------|
-| **Pro License** (1 device) | $5.99/month | $39/year | 46% |
-| **Pro Bundle** (up to 3 devices) | $9.99/month | $59/year | 51% |
+| Plan | One-Time | Monthly |
+|------|----------|---------|
+| **Pro** (1 device, lifetime updates) | $10 | $1.99/month |
+| **Pro Bundle** (up to 3 devices, lifetime updates) | $20 (was $30) | $3.99/month (was $5.97) |
+
+Pay once and own it forever, or subscribe monthly and cancel anytime.
 
 ### Feature Comparison
 
@@ -167,9 +169,9 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 | Priority Support | ✗ | ✓ |
 | Commercial Use | ✓ | ✓ |
 
-We encourage users who find LunoDB helpful to consider subscribing to Pro to support ongoing development and help us build more features.
+We encourage users who find LunoDB helpful to consider going Pro to support ongoing development and help us build more features.
 
-**[Subscribe to Pro](https://lunodb.app/subscribe)**
+**[Get LunoDB Pro](https://lunodb.app/purchase)**
 
 ## LunoDB Mobile
 
