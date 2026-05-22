@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/animated-banner.svg" alt="LunoDB — animated preview of the SQL editor and results view" width="100%"/>
+</p>
+
 # LunoDB
 
 ![LunoDB](https://img.shields.io/badge/version-1.28.0-blue.svg)
