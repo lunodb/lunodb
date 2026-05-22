@@ -1,11 +1,11 @@
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.27.2-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.28.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.27.2:** A focused patch release that cleans up reconnection behavior so background connections don't interrupt your work.
+**✨ NEW in v1.28.0:** Fill empty tables with realistic test data in one click, and finally tell your SQL tabs apart at a glance.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -46,6 +46,8 @@ All versions include in-app release notes and update notifications to keep you i
 
 ### Core Features
 - **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
+- **Seed Fake Data** - Generate realistic sample rows for any table with one click — smart values matched to column types and names, respects auto-increment, NOT NULL, and foreign keys
+- **Smart SQL Editor Tabs** - Tab titles auto-name from your SQL as you type, and double-click any tab to give it a custom name
 - **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
 - **SQL History Viewer** - View your SQL queries in a popup window with syntax highlighting
 - **Selected Row Counter** - See how many rows you've selected in real-time when working with large datasets
