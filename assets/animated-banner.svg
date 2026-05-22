@@ -9,17 +9,17 @@
       <stop offset="100%" stop-color="#00a3cc"/>
     </linearGradient>
 
-    <!-- Moving shimmer gradient for the wordmark -->
+    <!-- Moving shimmer gradient for the wordmark — ping-pongs left/right -->
     <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#00d4ff"/>
+      <stop offset="0%"   stop-color="#0099bf"/>
       <stop offset="42%"  stop-color="#00d4ff"/>
       <stop offset="50%"  stop-color="#ffffff"/>
       <stop offset="58%"  stop-color="#00d4ff"/>
-      <stop offset="100%" stop-color="#00a3cc"/>
+      <stop offset="100%" stop-color="#0099bf"/>
       <animateTransform attributeName="gradientTransform" type="translate"
-                        values="-1.2 0; 1.2 0; 1.2 0"
-                        keyTimes="0; 0.55; 1"
-                        dur="5.5s" repeatCount="indefinite"/>
+                        values="-1.2 0; 1.2 0; -1.2 0"
+                        keyTimes="0; 0.5; 1"
+                        dur="6.5s" repeatCount="indefinite"/>
     </linearGradient>
 
     <!-- Cyan glow filter -->
@@ -44,13 +44,13 @@
       <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Tagline typing clip -->
+    <!-- Tagline typing clip — types out, holds, then un-types -->
     <clipPath id="taglineClip">
       <rect x="0" y="0" width="0" height="40">
         <animate attributeName="width"
-                 values="0;0;620;620;620"
-                 keyTimes="0;0.15;0.55;0.92;1"
-                 dur="5.5s" repeatCount="indefinite"/>
+                 values="0;0;620;620;0;0"
+                 keyTimes="0;0.13;0.45;0.55;0.87;1"
+                 dur="6.5s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
   </defs>
@@ -98,12 +98,12 @@
   <g transform="translate(470, 180)">
     <text x="0" y="22" font-size="110" font-weight="800" letter-spacing="-2" fill="url(#shimmer)">LunoDB</text>
 
-    <!-- underline accent that sweeps in -->
+    <!-- underline accent that sweeps in then retracts -->
     <rect x="0" y="50" width="0" height="3" rx="1.5" fill="url(#cyanGrad)">
       <animate attributeName="width"
-               values="0;0;420;420;420"
-               keyTimes="0;0.05;0.18;0.92;1"
-               dur="5.5s" repeatCount="indefinite"/>
+               values="0;0;420;420;0;0"
+               keyTimes="0;0.08;0.42;0.58;0.92;1"
+               dur="6.5s" repeatCount="indefinite"/>
     </rect>
 
     <!-- tagline (types out) -->
