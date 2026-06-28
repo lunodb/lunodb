@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.28.3-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.29.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.28.3:** The brand new Claude Fable 5 model joins the AI lineup, and the latest Claude models now use adaptive thinking for better reasoning across all AI features.
+**✨ NEW in v1.29.0:** A performance-focused release — huge tables open right away, the app starts faster with many connections, and switching between connections is now rock-solid.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
