@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.29.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.29.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.29.0:** A performance-focused release — huge tables open right away, the app starts faster with many connections, and switching between connections is now rock-solid.
+**✨ NEW in v1.29.1:** A focused follow-up to 1.29.0 — tables open right away after you switch connections, especially databases you reach through an SSH tunnel.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -18,7 +18,7 @@ LunoDB is a professional-grade, cross-platform database management client design
 [**Download Latest Release**](https://github.com/lunodb/lunodb/releases/latest)
 
 - **macOS** - Apple Silicon & Intel (fully automatic updates)
-- **Windows** - x64 & ARM64 (fully automatic updates)
+- **Windows** - x64 (fully automatic updates)
 - **Linux**:
   - **AppImage** - Fully automatic updates (recommended)
   - **DEB Package** - Semi-automatic updates (requires password)
