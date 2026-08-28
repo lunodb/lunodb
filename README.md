@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.30.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.30.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.30.1:** A small fix-up release — Run All no longer errors out on queries that match nothing, and success messages are legible again in light mode.
+**✨ NEW in v1.30.2:** Drop all tables gets a proper fix-up — it now works on the database you're already connected to, works on SQLite, and stops reporting a failure for a drop that actually succeeded.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
