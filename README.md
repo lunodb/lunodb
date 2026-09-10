@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.30.2-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.31.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.30.2:** Drop all tables gets a proper fix-up — it now works on the database you're already connected to, works on SQLite, and stops reporting a failure for a drop that actually succeeded.
+**✨ NEW in v1.31.0:** The AI model lineup is caught up — OpenAI GPT-6 Astra & GPT-5.6, Claude Fable 5.1, Opus 5 & Sonnet 5, and Google Gemini 3.8, 3.7 & 3.6 Flash — plus AI Assistant upgrades: run its suggested queries in one click, pick several tables at once, and see schema changes the moment you refresh.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -88,7 +88,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Natural Language SQL** - Convert plain English to SQL queries
 - **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
-- **8 AI Providers** - OpenAI (GPT-5.5), Anthropic (Claude Fable 5, Opus 4.8, Sonnet 4.6), Google (Gemini 3.1 Pro), Grok 4.3 & Grok 4.20 Multi-Agent, DeepSeek, OpenRouter, Ollama, Custom
+- **8 AI Providers** - OpenAI (GPT-6 Astra, GPT-5.6), Anthropic (Claude Fable 5.1, Opus 5, Sonnet 5), Google (Gemini 3.8, 3.7 & 3.6 Flash), Grok 4.3 & Grok 4.20 Multi-Agent, DeepSeek, OpenRouter, Ollama, Custom
 - **Ollama — Fully Private AI** - Run AI entirely on your machine with no external requests. No API key needed, your data never leaves your device
 - **Ollama Web Search** - Optionally let Ollama models search the web for up-to-date context while keeping your database data private
 - **Ollama Thinking Mode** - Enable extended thinking for deeper reasoning with configurable effort levels
