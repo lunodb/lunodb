@@ -154,10 +154,13 @@ LunoDB is **free to use** with no time restrictions for personal and commercial 
 
 | Plan | One-Time | Monthly |
 |------|----------|---------|
-| **Pro** (1 device, lifetime updates) | $10 | $1.99/month |
-| **Pro Bundle** (up to 3 devices, lifetime updates) | $20 (was $30) | $3.99/month (was $5.97) |
+| **Pro** (1 device) | $10 | $1.99/month |
+| **Pro Bundle** (up to 3 devices) | $20 (was $30) | $3.99/month (was $5.97) |
 
-Pay once and own it forever, or subscribe monthly and cancel anytime.
+Pay once, or subscribe monthly and cancel anytime.
+
+- **One-time licenses** never expire and include 1 year of updates. After that, Pro keeps working with every feature; you just stop getting new versions. [Renew anytime](https://lunodb.app/license/renew) for another year of updates on the same license key ($10 for Pro, $20 for the Pro Bundle).
+- **Monthly subscriptions** include every update for as long as you stay subscribed.
 
 ### Feature Comparison
 
