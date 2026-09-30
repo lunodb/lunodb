@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.32.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.33.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.32.0:** A brand new app icon — the same crescent-and-database mark, rebuilt so macOS 26 and later can render it as Liquid Glass, with a standard icon rendered from the same artwork for every older version. Windows and Linux icons are unchanged.
+**✨ NEW in v1.33.0:** Connect to databases running in Docker by typing the container's name, sign in to Claude with your company's identity provider instead of an API key, and see clearly when your year of updates needs renewing — plus a fix for the SQL editor's save window getting stuck open.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
