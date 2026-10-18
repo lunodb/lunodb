@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.33.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.34.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.33.0:** Connect to databases running in Docker by typing the container's name, sign in to Claude with your company's identity provider instead of an API key, and see clearly when your year of updates needs renewing — plus a fix for the SQL editor's save window getting stuck open.
+**✨ NEW in v1.34.0:** Use AI on your Mac with no API key and nothing leaving your computer, thanks to on-device Apple Intelligence — plus the latest models from Anthropic (Opus 5.5), OpenAI (GPT-6.1), and xAI (Grok 4.7), and higher effort levels for the models that support them.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -90,7 +90,7 @@ All versions include in-app release notes and update notifications to keep you i
 - **Natural Language SQL** - Convert plain English to SQL queries
 - **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
 - **Smart Filtering** - Create complex filters using natural language
-- **8 AI Providers** - OpenAI (GPT-6 Astra, GPT-5.6), Anthropic (Claude Fable 5.1, Opus 5, Sonnet 5), Google (Gemini 3.8, 3.7 & 3.6 Flash), Grok 4.3 & Grok 4.20 Multi-Agent, DeepSeek, OpenRouter, Ollama, Custom
+- **9 AI Providers** - OpenAI (GPT-6.1 Sol, GPT-6 Astra, Sol & Luna), Anthropic (Claude Opus 5.5, Sonnet 5.5, Haiku 5.5), Google (Gemini 3.8, 3.7 & 3.6 Flash), Grok 4.7, 4.6 & 4.5, DeepSeek, OpenRouter, Ollama, Apple Intelligence (on-device), Custom
 - **Ollama — Fully Private AI** - Run AI entirely on your machine with no external requests. No API key needed, your data never leaves your device
 - **Ollama Web Search** - Optionally let Ollama models search the web for up-to-date context while keeping your database data private
 - **Ollama Thinking Mode** - Enable extended thinking for deeper reasoning with configurable effort levels
