@@ -4,12 +4,12 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.34.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-1.35.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.34.0:** Use AI on your Mac with no API key and nothing leaving your computer, thanks to on-device Apple Intelligence — plus the latest models from Anthropic (Opus 5.5), OpenAI (GPT-6.1), and xAI (Grok 4.7), and higher effort levels for the models that support them.
+**✨ NEW in v1.35.0:** Large SQL imports over SSH are now much faster, imports with the MySQL command-line tool work correctly through an SSH tunnel, and LunoDB keeps checking for updates while it's open.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
