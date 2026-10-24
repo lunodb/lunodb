@@ -4,12 +4,14 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-1.35.1-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
-**✨ NEW in v1.35.1:** SQL imports with the MySQL command-line tool now handle more real-world dumps — including binary data and very large rows — and tell you exactly what went wrong when one fails, while exports import cleanly into more tools.
+**✨ NEW in v2.0:** A ground-up redesign built for speed and simplicity — a new connections home, workspace, data grid, SQL editor, Structure and Graphs views, and an AI assistant that answers questions straight from your data. It starts faster, takes about 40% less disk space on a Mac, and keeps every feature you already rely on. [Full release notes](https://github.com/lunodb/lunodb/releases/tag/v2.0.0)
+
+> **⚠️ Upgrading from 1.x:** 2.0 moves saved passwords into your system keychain (converted automatically on first launch). If you later go back to a 1.x version, you'll need to re-enter those passwords — make a backup in **Settings → Backup** first if you might.
 
 **LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
 
@@ -50,79 +52,61 @@ All versions include in-app release notes and update notifications to keep you i
 
 ## Features
 
-### Core Features
-- **Multi-Database Support** - Connect to MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
-- **Seed Fake Data** - Generate realistic sample rows for any table with one click — smart values matched to column types and names, respects auto-increment, NOT NULL, and foreign keys
-- **Smart SQL Editor Tabs** - Tab titles auto-name from your SQL as you type, and double-click any tab to give it a custom name
-- **Professional Query Editor** - Monaco Editor with syntax highlighting, autocomplete, and multi-query support
-- **SQL History Viewer** - View your SQL queries in a popup window with syntax highlighting
-- **Selected Row Counter** - See how many rows you've selected in real-time when working with large datasets
-- **Query Log Panel** - Track every query with execution time, status, and error messages (Pro feature)
-- **Keyboard Shortcuts** - Refresh tables and graphs with Cmd+R (Mac) or Ctrl+R (Windows/Linux)
-- **Drag-and-Drop Connection Ordering** - Reorder saved connections by dragging, with order persisting across sessions
-- **Transfer to Mobile** - QR code sync to instantly transfer connections and graphs to LunoDB Mobile
-- **Persistent Settings** - Connection settings and keep-alive preferences save between sessions automatically
-- **View Preference Memory** - App remembers if you prefer table view or grid view
-- **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
-- **Last Executed Query Display** - Table views show the exact SQL query that was executed for full visibility
-- **Table Analysis** - Identify opportunities for query optimization with the new table analysis feature
-- **Query Control** - Cancel long-running queries and get warnings before querying large tables
-- **Multi-Query Toggle** - Show or hide multi-query input as needed for cleaner workspace
-- **Unsaved Changes Protection** - Get warned before switching tabs with unsaved SQL changes
-- **Expandable Text Fields** - View large text content with one click in SQL and Table views
-- **Copy & Paste Rows** - Duplicate data with keyboard shortcuts (⌘C/Ctrl+C and ⌘V/Ctrl+V) - Pro feature
-- **Export Query Results** - Export query results in CSV, JSON, and SQL formats
-- **Drag & Drop Imports** - Drop SQL files directly into the import dialog for instant imports
-- **Smart Column Sizing** - Columns automatically resize to fit content perfectly
-- **Minimizable Exports** - Minimize Export Database dialog to continue working while exports run in the background
-- **Cancellable Imports** - Stop long-running imports with one click and minimize dialog to keep working
-- **Markdown Release Notes** - Beautiful formatted release notes with code blocks, tables, and links
-- **Intuitive Interface** - Beautiful dark/light themes with custom-styled scrollbars and native platform integration
-- **Localized Numbers** - Numbers display in your local format with readable pagination (e.g., "1,000" vs "1000")
-- **SSH Tunneling** - Secure connections with SSH key support
-- **Data Import/Export** - CSV, JSON, SQL formats with Gzip compression
-- **Timestamped Exports** - Export filenames include formatted timestamps for better file organization
-- **Real-Time Editing** - Inline cell editing with change tracking
-- **Smart Persistence** - Connections, cursor position, and database selection automatically saved
-- **Enhanced MongoDB Support** - Proper Extended JSON date format and improved context menus
+### Connections
+- **Multi-Database Support** - MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
+- **Connections Home** - Every saved connection in one place, with search across names, hosts, databases and tags, environment filters (Production, Staging, Local) and drag-to-reorder
+- **Paste a Connection URL** - `postgres://`, `mysql://`, `mongodb://`, `redis://`, `libsql://` and more fill in the form for you; test before saving
+- **Pick Up Where You Left Off** - Reconnects last session's connections side by side; open the workspace as soon as one is ready
+- **SSH Tunneling** - Password, key file, or SSH agent (including 1Password and Secretive); encrypted keys ask for their passphrase once
+- **SQLite Files** - Drop a file on the window to open it, see recent files, or **Open read-only** to browse safely
+- **Turso Local Replicas** - Work from a local copy that syncs each time you connect
+- **Resilient Reconnection** - A non-blocking banner, five retries with backoff, pauses while offline, and cached rows stay on screen read-only while a connection is down
+- **Multiple Workspaces** - Independent windows, each remembering its own connections and tabs
 
-### AI-Powered Features
-- **Natural Language SQL** - Convert plain English to SQL queries
-- **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
-- **Smart Filtering** - Create complex filters using natural language
+### Data View
+- **Fast, Clear Grid** - Column types and key icons in headers, right-aligned numbers, highlighted `NULL`s, tags for booleans and enums, relative dates
+- **Safe Editing** - Edited cells stay highlighted, **Review** shows the exact SQL before **Save**, and saves run in one transaction — all or nothing. Production connections ask first
+- **One Filter Bar** - Type `plan = pro` or `total >= 100`, or describe the filter in plain words and let AI build it; filters show as editable chips
+- **Instant Deep Paging** - The last page of a 10 million row MySQL table opens in milliseconds
+- **Column Stats** - Right-click a header for min, max, average, NULLs and distinct values
+- **Flexible Export** - Filtered rows, the current page, selected rows or the whole table as CSV, JSON or SQL INSERT, with column picking, preview and size estimate; big exports keep running in the corner
+- **Seed Fake Data** - Realistic sample rows matched to column types and names, respecting keys and constraints
+- **Copy & Paste Rows** - Duplicate data between tables with ⌘C/Ctrl+C and ⌘V/Ctrl+V (Pro)
+
+### SQL Editor
+- **Schema-Aware Editor** - Suggestions for your tables (with row counts) and columns (with types), hover info, and failed lines marked with the database's error
+- **Run Current or Run All** - Click ▶ beside any statement to run just that one; **Run all** keeps your whole script on one connection so transactions, `SET` and temp tables hold together
+- **Safer Scripts** - Run all stops at the first failure and rolls back, asks to commit or roll back an open transaction, and can run the whole script as one transaction
+- **Results Like the Data View** - One tab per statement plus a **Messages** tab; edit results, even from joins, on MySQL, MariaDB, PostgreSQL and SQLite
+- **History Panel** - Search past queries, star the ones you reuse, and add notes
+- **Query Log** - Every query with execution time, status and errors, in a drawer along the bottom (Pro)
+- **Import & Export** - CSV, JSON and SQL with Gzip compression, drag-and-drop imports, and cancellable, minimizable jobs
+
+### Structure & Graphs
+- **Structure View** - Row counts, sizes, colour-coded types and key tags; edit columns in place and add columns and indexes with the exact SQL shown first
+- **Schema Diagrams** - Interactive foreign key relationship diagrams, exportable as images
+- **Graphs** - Bar, line, area, pie and scatter charts from your own SQL, with a live preview, the rows shown under the chart, and PNG export (Pro)
+- **AI Graph Suggestions** - Let AI propose charts for your data
+
+### AI Assistant
+- **Answers, Not Just SQL** - Ask a question and the assistant runs a read-only query for you and shows the result as a one-line answer, a chart, a number or a table — then **Save to Graphs**, **Open in SQL** or **Apply as filter** (Pro)
+- **Safe by Design** - Answers run only a single SELECT inside a read-only transaction, capped at 10 seconds and 1,000 rows. Queries that change data are shown for review, never run for you
+- **Write with AI, Optimize, Insights** - Generate and refine SQL with version history, get index-aware optimization with before/after scores, and data quality insights for any table
 - **9 AI Providers** - OpenAI (GPT-6.1 Sol, GPT-6 Astra, Sol & Luna), Anthropic (Claude Opus 5.5, Sonnet 5.5, Haiku 5.5), Google (Gemini 3.8, 3.7 & 3.6 Flash), Grok 4.7, 4.6 & 4.5, DeepSeek, OpenRouter, Ollama, Apple Intelligence (on-device), Custom
-- **Ollama — Fully Private AI** - Run AI entirely on your machine with no external requests. No API key needed, your data never leaves your device
-- **Ollama Web Search** - Optionally let Ollama models search the web for up-to-date context while keeping your database data private
-- **Ollama Thinking Mode** - Enable extended thinking for deeper reasoning with configurable effort levels
-- **Ollama Model Sync** - Fetched models appear in all AI dropdowns and persist across sessions
-- **Thinking & Effort Controls** - Configure reasoning depth for supported models
-- **Schema-Aware** - AI understands your database structure
-- **Privacy-First** - Only schema metadata is sent to cloud providers — never your actual data. Use Ollama for complete privacy
+- **Fully Private Options** - Apple Intelligence and Ollama run on your machine with no external requests and no API key
+- **You Choose What It Sees** - Pick which tables the AI knows about and see exactly what it's told. Cloud providers receive your request and schema, plus the rows a feature needs (for example, up to 50 rows of an answer for its summary); turn automatic answers off in **Settings → AI → Features**
 
-### Data Visualization
-- **AI Graph Generation** - Let AI create charts based on your data with intelligent chart type suggestions
-- **Custom SQL Charts** - Build visualizations using your own SQL queries
-- **Multi-Query Graphs** - Combine data from multiple queries in one visualization
-- **Multiple Chart Types** - 5 chart types: line, bar, area, pie, and scatter
-- **Custom Color Schemes** - Personalize charts to match your style
-- **Smart Date Formatting** - Automatic date handling in time-series visualizations
-- **Graph Management** - Create, edit, duplicate, and delete graphs per connection
-- **Backup & Restore** - Graphs saved with backups and restored together
-
-### Workspace & Schema Visualization
-- **Schema Relationship Diagrams** - Interactive visualization of tables and their foreign key relationships with improved spacing
-- **Drag-and-Drop Layout** - Automatic layout with manual repositioning support and no overlapping elements
-- **Export Diagrams** - Export schema diagrams as high-quality images for documentation
-- **Multiple Workspaces** - Open multiple independent workspace windows for parallel workflows
-- **Smart Session Restoration** - Each workspace remembers its connections and open tabs, restoring them correctly on startup
-- **Isolated State** - Work on dev, staging, and production databases side-by-side with no interference
-- **Audio Feedback** - Subtle sound effects for connections and query execution (can be disabled)
-- **Platform-Aware Shortcuts** - Keyboard shortcuts automatically use ⌘ on macOS, Ctrl on Windows/Linux
+### Everywhere
+- **Jump To** - ⌘P / Ctrl+P lists your tables, then actions
+- **Polished Interface** - Light and dark themes, dialogs that always fit the window, LunoDB-styled right-click menus, and subtle sounds (can be disabled)
+- **Calmer Crash Screen** - Plain-language errors with **Reload** or **Reload without tabs**, and a reference to quote to support
+- **Transfer to Mobile** - QR code sync to transfer connections and graphs to LunoDB Mobile
 
 ### Performance & Security
+- **Faster Startup, Smaller App** - Heavy views load the first time you open them; about 280 MB installed on a Mac, down from about 470 MB
+- **Keychain-Encrypted Credentials** - Saved passwords, tokens and passphrases are encrypted with macOS Keychain, Windows Credential Manager or the Linux secret service
+- **Keys Stay in the Background** - Saved passwords and AI API keys never reach the app window
 - **SSL/TLS Support** - Encrypted database connections
-- **Secure Storage** - Encrypted credential storage — API keys and passwords never leave your device
-- **Local AI Option** - Use Ollama for zero external dependencies and full data privacy
 
 ## Screenshots
 
@@ -169,14 +153,16 @@ Pay once, or subscribe monthly and cancel anytime.
 | Feature | Free | Pro |
 |---------|------|-----|
 | Database Connections | Up to 2 | Unlimited |
-| Monaco Editor | ✗ | ✓ |
-| Export (CSV, JSON, SQL) | ✗ | ✓ |
-| SQL History | Limited | Unlimited |
+| Schema-Aware SQL Editor | ✗ | ✓ |
+| Export to CSV | ✓ | ✓ |
+| Export to JSON & SQL | ✗ | ✓ |
+| SQL History & Query Log | Limited | Unlimited |
 | Graphs & Visualizations | ✗ | ✓ |
-| AI Features | ✗ | ✓ |
+| AI Features (SQL generation, AI filters, chat) | ✓ | ✓ |
+| AI Answer Cards (answers run on your data) | ✗ | ✓ |
 | SSH Tunnels | ✗ | ✓ |
 | SSL/TLS Connections | ✗ | ✓ |
-| Query Editor | ✓ | ✓ |
+| Basic Query Editor | ✓ | ✓ |
 | Priority Support | ✗ | ✓ |
 | Commercial Use | ✓ | ✓ |
 
