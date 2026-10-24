@@ -111,16 +111,16 @@ All versions include in-app release notes and update notifications to keep you i
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home-screen.png)
+![Home Screen](screenshots/home-screen.webp)
 
 ### Query Editor - Light Theme
-![Editor Light Theme](screenshots/editor-light.png)
+![Editor Light Theme](screenshots/editor-light.webp)
 
 ### Query Editor - Dark Theme
-![Editor Dark Theme](screenshots/editor-dark.png)
+![Editor Dark Theme](screenshots/editor-dark.webp)
 
 ### AI Features
-![AI Features](screenshots/ai-features.png)
+![AI Features](screenshots/ai-features.webp)
 
 ## System Requirements
 
