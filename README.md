@@ -4,12 +4,14 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.0.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
 
 **✨ NEW in v2.0:** A ground-up redesign built for speed and simplicity — a new connections home, workspace, data grid, SQL editor, Structure and Graphs views, and an AI assistant that answers questions straight from your data. It starts faster, takes about 40% less disk space on a Mac, and keeps every feature you already rely on. [Full release notes](https://github.com/lunodb/lunodb/releases/tag/v2.0.0)
+
+**v2.0.1:** Describe the rows you want in the filter bar and LunoDB filters the table for you — no extra steps. Help → Contact Support and Help → FAQ work again. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.0.1)
 
 > **⚠️ Upgrading from 1.x:** 2.0 moves saved passwords into your system keychain (converted automatically on first launch). If you later go back to a 1.x version, you'll need to re-enter those passwords — make a backup in **Settings → Backup** first if you might.
 

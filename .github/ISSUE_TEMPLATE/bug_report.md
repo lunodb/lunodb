@@ -25,7 +25,7 @@ What actually happened instead.
 If applicable, add screenshots to help explain your problem.
 
 ## Environment
-- **LunoDB Version**: [e.g., 2.0.0]
+- **LunoDB Version**: [e.g., 2.0.1]
 - **Operating System**: [e.g., macOS 13.5, Windows 11, Ubuntu 22.04]
 - **Database Type**: [e.g., MySQL 8.0, PostgreSQL 14, SQLite]
 - **License Type**: [Free / Pro]
