@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/animated-banner.svg" alt="LunoDB — animated preview of the SQL editor and results view" width="100%"/>
+  <img src="./assets/og-image.png" alt="LunoDB — Query any database in plain English" width="100%"/>
 </p>
 
 # LunoDB
