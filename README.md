@@ -27,7 +27,7 @@ LunoDB is a professional-grade, cross-platform database management client design
   - **Apple Silicon** (M1 and later, recommended) - `LunoDB-<version>-arm64.dmg`
   - **Intel** - `LunoDB-<version>-x64.dmg`
 - **Windows** - x64 (fully automatic updates)
-- **Linux**:
+- **Linux** - x64 & ARM64:
   - **AppImage** - Fully automatic updates (recommended)
   - **DEB Package** - Semi-automatic updates (requires password)
   - **RPM Package** - Manual updates via GitHub
@@ -182,22 +182,24 @@ Take your database management on the go with LunoDB Mobile. **Available now on i
 
 Android support is coming soon.
 
+Runs on iPhone and iPad.
+
 ### Features
-- **5 Database Types** - MySQL, PostgreSQL, MariaDB, SQLite, and Turso
+- **6 Database Types** - MySQL, PostgreSQL, MariaDB, MongoDB, SQLite, and Turso
 - **Direct Connections** - Turso connects directly via HTTPS, SQLite works locally - no proxy needed
 - **SQLite File Import** - Import existing .db, .sqlite, and .sqlite3 files from your device or cloud storage
 - **QR Code Sync** - Instantly transfer all connections, graphs, and SSH tunnels from LunoDB Desktop
 - **Query Editor** - Write and execute queries with mobile-optimized interface
-- **AI Assistant** - Natural language SQL generation with your own API keys
-- **Visualizations** - Charts, graphs, and ER diagrams on the go
-- **Secure Connections** - MySQL, PostgreSQL, and MariaDB connect via LunoDB Cloud proxy
-- **Biometric Security** - Face ID and fingerprint lock for your connections
+- **AI Assistant** - Natural language SQL generation with your own OpenAI, Anthropic, Google, or xAI API key
+- **Visualizations** - Charts, graphs, and ER diagrams on the go, plus a Home Screen widget for your favorite chart
+- **Secure Connections** - MySQL, PostgreSQL, MariaDB, and MongoDB connect via the LunoDB Cloud proxy, with optional SSH tunnels
+- **Biometric Security** - Lock the app with Face ID or Touch ID
 
 ### Connection Types
 
 | Database | Connection Method |
 |----------|------------------|
-| MySQL, PostgreSQL, MariaDB | Via LunoDB Cloud (secure proxy) |
+| MySQL, PostgreSQL, MariaDB, MongoDB | Via LunoDB Cloud (secure proxy) |
 | Turso | Direct HTTPS (no proxy) |
 | SQLite | Local files on device |
 
@@ -205,9 +207,8 @@ Learn more on our [website](https://lunodb.app/mobile) or follow us on [X](https
 
 ## Documentation & Support
 
-- **Documentation** - [GitHub Wiki](https://github.com/lunodb/lunodb/wiki)
-- **Bug Reports** - [GitHub Issues](https://github.com/lunodb/lunodb/issues)
-- **Feature Requests** - [GitHub Discussions](https://github.com/lunodb/lunodb/discussions)
+- **Documentation** - [lunodb.app/docs](https://lunodb.app/docs)
+- **Bug Reports & Feature Requests** - [GitHub Issues](https://github.com/lunodb/lunodb/issues)
 
 ## Contact
 
