@@ -17,9 +17,9 @@ LunoDB is a professional-grade, cross-platform database management client design
 
 [**Download Latest Release**](https://github.com/lunodb/lunodb/releases/latest)
 
-- **macOS** - Apple Silicon & Intel (fully automatic updates)
+- **macOS** - Universal build for Apple Silicon & Intel (fully automatic updates)
 - **Windows** - x64 (fully automatic updates)
-- **Linux**:
+- **Linux** - x64 & ARM64:
   - **AppImage** - Fully automatic updates (recommended)
   - **DEB Package** - Semi-automatic updates (requires password)
   - **RPM Package** - Manual updates via GitHub
@@ -56,11 +56,11 @@ All versions include in-app release notes and update notifications to keep you i
 - **SQL History Viewer** - View your SQL queries in a popup window with syntax highlighting
 - **Selected Row Counter** - See how many rows you've selected in real-time when working with large datasets
 - **Query Log Panel** - Track every query with execution time, status, and error messages (Pro feature)
-- **Keyboard Shortcuts** - Refresh tables and graphs with Cmd+R (Mac) or Ctrl+R (Windows/Linux)
+- **Keyboard Shortcuts** - Refresh tables, results, and graphs with Cmd+R (Mac) or Ctrl+R (Windows/Linux), and open the command palette with Cmd+P / Ctrl+P
 - **Drag-and-Drop Connection Ordering** - Reorder saved connections by dragging, with order persisting across sessions
 - **Transfer to Mobile** - QR code sync to instantly transfer connections and graphs to LunoDB Mobile
 - **Persistent Settings** - Connection settings and keep-alive preferences save between sessions automatically
-- **View Preference Memory** - App remembers if you prefer table view or grid view
+- **View Preference Memory** - App remembers which view (data, structure, SQL, graphs, and more) you were using
 - **Streaming Query Execution** - Real-time progress tracking shows queries executing live with accurate status updates
 - **Last Executed Query Display** - Table views show the exact SQL query that was executed for full visibility
 - **Table Analysis** - Identify opportunities for query optimization with the new table analysis feature
@@ -78,24 +78,29 @@ All versions include in-app release notes and update notifications to keep you i
 - **Intuitive Interface** - Beautiful dark/light themes with custom-styled scrollbars and native platform integration
 - **Localized Numbers** - Numbers display in your local format with readable pagination (e.g., "1,000" vs "1000")
 - **SSH Tunneling** - Secure connections with SSH key support
-- **Data Import/Export** - CSV, JSON, SQL formats with Gzip compression
+- **Data Import/Export** - Export to CSV, JSON, and SQL; import CSV files and SQL dumps (including Gzip-compressed `.sql.gz`)
 - **Timestamped Exports** - Export filenames include formatted timestamps for better file organization
 - **Real-Time Editing** - Inline cell editing with change tracking
 - **Smart Persistence** - Connections, cursor position, and database selection automatically saved
 - **Enhanced MongoDB Support** - Proper Extended JSON date format and improved context menus
+- **Database Admin Tools** - Manage users and privileges (MySQL, MariaDB, PostgreSQL) and view or kill running queries in the process list
+- **Drop All Tables** - Empty any database in one step, including the one you're connected to
 
 ### AI-Powered Features
 - **Natural Language SQL** - Convert plain English to SQL queries
-- **AI Chat Assistant** - Database-aware AI assistant with persistent conversations
+- **AI Chat Assistant** - Database-aware AI assistant that can open its suggested queries straight in the SQL editor
+- **Conversation History** - Search, reopen, rename, and export past AI chats — saved across restarts and shared between windows
 - **Smart Filtering** - Create complex filters using natural language
-- **8 AI Providers** - OpenAI (GPT-6 Astra, GPT-5.6), Anthropic (Claude Fable 5.1, Opus 5, Sonnet 5), Google (Gemini 3.8, 3.7 & 3.6 Flash), Grok 4.3 & Grok 4.20 Multi-Agent, DeepSeek, OpenRouter, Ollama, Custom
+- **AI Data Insights & Query Optimizer** - Get a quick analysis of your data and suggestions for making slow queries faster
+- **Voice Dictation** - Speak your AI prompts instead of typing them (uses your OpenAI key)
+- **8 AI Providers** - OpenAI (GPT-6 Astra, GPT-5.6 Sol/Terra/Luna), Anthropic (Claude Fable 5.1, Opus 5, Sonnet 5), Google (Gemini 3.8, 3.7 & 3.6 Flash, 3.5 Flash Lite), xAI (Grok 4.3 & Grok 4.20 Multi-Agent), DeepSeek, OpenRouter, Ollama, and custom OpenAI-compatible endpoints
 - **Ollama — Fully Private AI** - Run AI entirely on your machine with no external requests. No API key needed, your data never leaves your device
 - **Ollama Web Search** - Optionally let Ollama models search the web for up-to-date context while keeping your database data private
 - **Ollama Thinking Mode** - Enable extended thinking for deeper reasoning with configurable effort levels
 - **Ollama Model Sync** - Fetched models appear in all AI dropdowns and persist across sessions
 - **Thinking & Effort Controls** - Configure reasoning depth for supported models
 - **Schema-Aware** - AI understands your database structure
-- **Privacy-First** - Only schema metadata is sent to cloud providers — never your actual data. Use Ollama for complete privacy
+- **Privacy-First** - Only schema metadata for the tables you pick is sent to cloud providers — never your actual data. Use Ollama for complete privacy
 
 ### Data Visualization
 - **AI Graph Generation** - Let AI create charts based on your data with intelligent chart type suggestions
@@ -164,14 +169,14 @@ Pay once and own it forever, or subscribe monthly and cancel anytime.
 | Feature | Free | Pro |
 |---------|------|-----|
 | Database Connections | Up to 2 | Unlimited |
-| Monaco Editor | ✗ | ✓ |
-| Export (CSV, JSON, SQL) | ✗ | ✓ |
-| SQL History | Limited | Unlimited |
-| Graphs & Visualizations | ✗ | ✓ |
-| AI Features | ✗ | ✓ |
+| Query Editor | Basic | Monaco with autocomplete |
+| Export Query Results | CSV | CSV, JSON, SQL |
+| SQL History & Query Log | ✗ | ✓ |
+| Copy & Paste Rows | ✗ | ✓ |
+| Graphs & Visualizations | ✓ | ✓ |
+| AI Features (bring your own API key or Ollama) | ✓ | ✓ |
 | SSH Tunnels | ✗ | ✓ |
-| SSL/TLS Connections | ✗ | ✓ |
-| Query Editor | ✓ | ✓ |
+| SSL/TLS Connections | Basic | All modes + certificates |
 | Priority Support | ✗ | ✓ |
 | Commercial Use | ✓ | ✓ |
 
@@ -187,22 +192,24 @@ Take your database management on the go with LunoDB Mobile. **Available now on i
 
 Android support is coming soon.
 
+Runs on iPhone and iPad.
+
 ### Features
-- **5 Database Types** - MySQL, PostgreSQL, MariaDB, SQLite, and Turso
+- **6 Database Types** - MySQL, PostgreSQL, MariaDB, MongoDB, SQLite, and Turso
 - **Direct Connections** - Turso connects directly via HTTPS, SQLite works locally - no proxy needed
 - **SQLite File Import** - Import existing .db, .sqlite, and .sqlite3 files from your device or cloud storage
 - **QR Code Sync** - Instantly transfer all connections, graphs, and SSH tunnels from LunoDB Desktop
 - **Query Editor** - Write and execute queries with mobile-optimized interface
-- **AI Assistant** - Natural language SQL generation with your own API keys
-- **Visualizations** - Charts, graphs, and ER diagrams on the go
-- **Secure Connections** - MySQL, PostgreSQL, and MariaDB connect via LunoDB Cloud proxy
-- **Biometric Security** - Face ID and fingerprint lock for your connections
+- **AI Assistant** - Natural language SQL generation with your own OpenAI, Anthropic, Google, or xAI API key
+- **Visualizations** - Charts, graphs, and ER diagrams on the go, plus a Home Screen widget for your favorite chart
+- **Secure Connections** - MySQL, PostgreSQL, MariaDB, and MongoDB connect via the LunoDB Cloud proxy, with optional SSH tunnels
+- **Biometric Security** - Lock the app with Face ID or Touch ID
 
 ### Connection Types
 
 | Database | Connection Method |
 |----------|------------------|
-| MySQL, PostgreSQL, MariaDB | Via LunoDB Cloud (secure proxy) |
+| MySQL, PostgreSQL, MariaDB, MongoDB | Via LunoDB Cloud (secure proxy) |
 | Turso | Direct HTTPS (no proxy) |
 | SQLite | Local files on device |
 
@@ -210,9 +217,8 @@ Learn more on our [website](https://lunodb.app/mobile) or follow us on [X](https
 
 ## Documentation & Support
 
-- **Documentation** - [GitHub Wiki](https://github.com/lunodb/lunodb/wiki)
-- **Bug Reports** - [GitHub Issues](https://github.com/lunodb/lunodb/issues)
-- **Feature Requests** - [GitHub Discussions](https://github.com/lunodb/lunodb/discussions)
+- **Documentation** - [lunodb.app/docs](https://lunodb.app/docs)
+- **Bug Reports & Feature Requests** - [GitHub Issues](https://github.com/lunodb/lunodb/issues)
 
 ## Contact
 
