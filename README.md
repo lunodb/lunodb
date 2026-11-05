@@ -4,7 +4,7 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.1.3-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.1.4-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
@@ -18,6 +18,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 **v2.1.2:** Graphs you send to LunoDB Mobile now keep their full database name, and release notes stay on screen while an update downloads. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.2)
 
 **v2.1.3:** SSL settings and certificates now come with your connections when you move them to LunoDB Mobile, and back again (needs LunoDB Mobile 2.0 or later). [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.3)
+
+**v2.1.4:** Pro unlocks the moment you enter your license key or start a trial — no restart needed. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.4)
 
 > **⚠️ Upgrading from 1.x:** 2.0 moves saved passwords into your system keychain (converted automatically on first launch). If you later go back to a 1.x version, you'll need to re-enter those passwords — make a backup in **Settings → Backup** first if you might.
 
