@@ -38,6 +38,14 @@ LunoDB is a professional-grade, cross-platform database management client design
   - **DEB Package** - Semi-automatic updates (requires password)
   - **RPM Package** - Manual updates via GitHub
 
+### Homebrew (macOS)
+
+```sh
+brew install --cask idevtim/tap/lunodb
+```
+
+Same signed build, from the [idevtim tap](https://github.com/idevtim/homebrew-tap). Homebrew picks the Apple Silicon or Intel build for your Mac, and LunoDB updates itself afterwards, so `brew upgrade` leaves it alone unless you pass `--greedy`. `brew uninstall --zap --cask lunodb` also removes your saved connections, query history and settings.
+
 ## Auto-Updates
 
 LunoDB includes built-in update notifications with varying levels of automation by platform:
