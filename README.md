@@ -4,7 +4,7 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.2.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.3.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
@@ -22,6 +22,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 **v2.1.4:** Pro unlocks the moment you enter your license key or start a trial — no restart needed. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.4)
 
 **✨ NEW in v2.2:** LunoDB now opens 23 kinds of database, up from 8 — adding Oracle, ClickHouse, DuckDB, Cassandra, Elasticsearch, Firestore, Firebase Realtime Database, BigQuery and Snowflake, plus their own entries for Supabase, Neon, CockroachDB, Amazon Redshift, Valkey and OpenSearch. SSL/TLS is now free on every plan, and every SQL run gets its own results tab. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.2.0)
+
+**✨ NEW in v2.3:** One connection for the whole server — leave the database empty and every database on it appears in the sidebar. Jump to (now ⌘K) searches all of them, tabs from every database stay open, and PostgreSQL works across several databases from one saved connection. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.0)
 
 > **⚠️ PostgreSQL with SSL set to Prefer:** 2.2 no longer sends your password unencrypted to a remote server that refuses SSL. If you connect to a remote PostgreSQL server that really has no SSL, set its SSL mode to **Disable**.
 
@@ -130,7 +132,7 @@ Supabase, Neon, CockroachDB and Amazon Redshift (PostgreSQL), Valkey (Redis) and
 - **You Choose What It Sees** - Pick which tables the AI knows about and see exactly what it's told. Cloud providers receive your request and schema, plus the rows a feature needs (for example, up to 50 rows of an answer for its summary); turn automatic answers off in **Settings → AI → Features**
 
 ### Everywhere
-- **Jump To** - ⌘P / Ctrl+P lists your tables, then actions
+- **Jump To** - ⌘K / Ctrl+K lists your tables, then actions, in one database or all of them
 - **Polished Interface** - Light and dark themes, dialogs that always fit the window, LunoDB-styled right-click menus, and subtle sounds (can be disabled)
 - **Calmer Crash Screen** - Plain-language errors with **Reload** or **Reload without tabs**, and a reference to quote to support
 - **Transfer to Mobile** - QR code sync to transfer connections and graphs to LunoDB Mobile
