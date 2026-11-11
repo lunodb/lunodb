@@ -4,7 +4,7 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.1.4-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.2.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
@@ -20,6 +20,10 @@ LunoDB is a professional-grade, cross-platform database management client design
 **v2.1.3:** SSL settings and certificates now come with your connections when you move them to LunoDB Mobile, and back again (needs LunoDB Mobile 2.0 or later). [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.3)
 
 **v2.1.4:** Pro unlocks the moment you enter your license key or start a trial — no restart needed. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.4)
+
+**✨ NEW in v2.2:** LunoDB now opens 23 kinds of database, up from 8 — adding Oracle, ClickHouse, DuckDB, Cassandra, Elasticsearch, Firestore, Firebase Realtime Database, BigQuery and Snowflake, plus their own entries for Supabase, Neon, CockroachDB, Amazon Redshift, Valkey and OpenSearch. SSL/TLS is now free on every plan, and every SQL run gets its own results tab. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.2.0)
+
+> **⚠️ PostgreSQL with SSL set to Prefer:** 2.2 no longer sends your password unencrypted to a remote server that refuses SSL. If you connect to a remote PostgreSQL server that really has no SSL, set its SSL mode to **Disable**.
 
 > **⚠️ Upgrading from 1.x:** 2.0 moves saved passwords into your system keychain (converted automatically on first launch). If you later go back to a 1.x version, you'll need to re-enter those passwords — make a backup in **Settings → Backup** first if you might.
 
@@ -67,11 +71,22 @@ All versions include in-app release notes and update notifications to keep you i
 🍃 **MongoDB** - MongoDB 4.0+, Atlas
 🔴 **Redis** - Redis 6.0+, Redis Cloud
 🪶 **Turso** - LibSQL databases with full support
+🔶 **Oracle** - Oracle Database 12c+, Oracle Cloud wallets, nothing extra to install
+🟡 **ClickHouse** - Self-hosted over HTTP(S) and ClickHouse Cloud
+🦆 **DuckDB** - Local .duckdb files, optionally read-only
+👁️ **Apache Cassandra** - Clusters and DataStax Astra
+🔍 **Elasticsearch** - Self-hosted and Elastic Cloud, with Elasticsearch SQL or Dev Tools-style requests
+🔥 **Cloud Firestore** - Service account or Firebase emulator
+🔥 **Firebase Realtime Database** - The JSON tree as tables
+📊 **Google BigQuery** - Free row browsing, optional maximum bytes billed
+❄️ **Snowflake** - Key pair or programmatic access token
+
+Supabase, Neon, CockroachDB and Amazon Redshift (PostgreSQL), Valkey (Redis) and OpenSearch (Elasticsearch) each have their own entry with their usual port and user — 23 kinds of database in all.
 
 ## Features
 
 ### Connections
-- **Multi-Database Support** - MySQL, PostgreSQL, SQLite, MariaDB, MongoDB, SQL Server, Redis, and Turso
+- **Multi-Database Support** - 23 kinds of database, from MySQL, PostgreSQL, SQL Server and Oracle to MongoDB, Redis, ClickHouse, DuckDB, Snowflake, BigQuery, Cassandra, Elasticsearch and Firestore
 - **Connections Home** - Every saved connection in one place, with search across names, hosts, databases and tags, environment filters (Production, Staging, Local) and drag-to-reorder
 - **Paste a Connection URL** - `postgres://`, `mysql://`, `mongodb://`, `redis://`, `libsql://` and more fill in the form for you; test before saving
 - **Pick Up Where You Left Off** - Reconnects last session's connections side by side; open the workspace as soon as one is ready
@@ -179,7 +194,7 @@ Pay once, or subscribe monthly and cancel anytime.
 | AI Features (SQL generation, AI filters, chat) | ✓ | ✓ |
 | AI Answer Cards (answers run on your data) | ✗ | ✓ |
 | SSH Tunnels | ✗ | ✓ |
-| SSL/TLS Connections | ✗ | ✓ |
+| SSL/TLS Connections | ✓ | ✓ |
 | Basic Query Editor | ✓ | ✓ |
 | Priority Support | ✗ | ✓ |
 | Commercial Use | ✓ | ✓ |
