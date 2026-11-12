@@ -4,7 +4,7 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.3.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.3.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
@@ -24,6 +24,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 **✨ NEW in v2.2:** LunoDB now opens 23 kinds of database, up from 8 — adding Oracle, ClickHouse, DuckDB, Cassandra, Elasticsearch, Firestore, Firebase Realtime Database, BigQuery and Snowflake, plus their own entries for Supabase, Neon, CockroachDB, Amazon Redshift, Valkey and OpenSearch. SSL/TLS is now free on every plan, and every SQL run gets its own results tab. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.2.0)
 
 **✨ NEW in v2.3:** One connection for the whole server — leave the database empty and every database on it appears in the sidebar. Jump to (now ⌘K) searches all of them, tabs from every database stay open, and PostgreSQL works across several databases from one saved connection. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.0)
+
+**v2.3.1:** Your newest query results open first, an error that could stop the table view from opening after long use is fixed, and LunoDB is about 20 MB smaller to download (DuckDB's engine now downloads the first time you open a DuckDB database). [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.1)
 
 > **⚠️ PostgreSQL with SSL set to Prefer:** 2.2 no longer sends your password unencrypted to a remote server that refuses SSL. If you connect to a remote PostgreSQL server that really has no SSL, set its SSL mode to **Disable**.
 
