@@ -4,7 +4,7 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.4.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.5.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
@@ -32,6 +32,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 **v2.3.3:** Saving is safer when your connection drops partway through a save — LunoDB tells you your changes may have been saved, keeps your edits, and asks before saving them again so nothing is applied twice. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.3)
 
 **✨ NEW in v2.4:** Steadier connections to servers over the internet — no more false "Connection lost" messages with MySQL and MariaDB on AWS, and LunoDB notices a dropped network within seconds. A new troubleshooting log (**Help → Export Logs**) makes bug reports much quicker to track down, without ever recording your queries, rows, passwords or server addresses. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.4.0)
+
+**✨ NEW in v2.5:** Much faster exports on MySQL and MariaDB — a 500,000-row table to CSV in about a second in our tests — and LunoDB no longer holds on to memory after a big export. Dates and date-times now export exactly as they're stored, and the sidebar keeps showing only your connection's own database after an import or refresh. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.5.0)
 
 > **⚠️ PostgreSQL with SSL set to Prefer:** 2.2 no longer sends your password unencrypted to a remote server that refuses SSL. If you connect to a remote PostgreSQL server that really has no SSL, set its SSL mode to **Disable**.
 
