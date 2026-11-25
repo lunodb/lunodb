@@ -4,7 +4,7 @@
 
 # LunoDB
 
-![LunoDB](https://img.shields.io/badge/version-2.10.0-blue.svg)
+![LunoDB](https://img.shields.io/badge/version-2.10.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
 LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
@@ -48,6 +48,8 @@ LunoDB is a professional-grade, cross-platform database management client design
 **✨ NEW in v2.9:** See and edit functions, procedures, triggers and sequences right in the sidebar (Pro), export to Excel and import Excel, JSON, CSV and TSV into any database, and group your connections in folders. Each window now keeps its own SQL tabs. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.9.0)
 
 **✨ NEW in v2.10:** Select cells to see their sum, average, min and max, transpose wide rows, compare query results and database schemas (Pro), search every table at once (Pro), and tunnel through SSH jump hosts (Pro). SSH server keys are now checked like the ssh command does, MongoDB follows its SSL / TLS setting, and Settings is redesigned. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.10.0)
+
+**v2.10.1:** LunoDB Pro is now Pro Lifetime: $25 once, on every computer you own, with every update forever. Earlier one-time licenses are upgraded for free. Connecting through a socket file now works on MySQL, MariaDB and PostgreSQL. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.10.1)
 
 > **⚠️ PostgreSQL with SSL set to Prefer:** 2.2 no longer sends your password unencrypted to a remote server that refuses SSL. If you connect to a remote PostgreSQL server that really has no SSL, set its SSL mode to **Disable**.
 
