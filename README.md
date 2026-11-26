@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/og-image.png" alt="LunoDB — Query any database in plain English" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/og-image.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/og-image-light.png">
+    <img src="./assets/og-image-light.png" alt="LunoDB — Query any database in plain English" width="100%"/>
+  </picture>
 </p>
 
 # LunoDB
@@ -96,4 +100,4 @@ Free on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885) for iPhone and 
 
 ---
 
-**© 2026 LunoDB** • Made with ❤️ for developers
+**© 2026 LunoDB** • Made with ❤️ by [iDEVTim](https://idevtim.com)
