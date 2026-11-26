@@ -7,270 +7,92 @@
 ![LunoDB](https://img.shields.io/badge/version-2.10.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)
 
-LunoDB is a professional-grade, cross-platform database management client designed for developers and database administrators. Built with modern technologies, it provides comprehensive tools for managing multiple databases with an intuitive, native desktop experience.
+A fast, cross-platform desktop client for 23 kinds of database, with a built-in AI assistant that answers questions straight from your data.
 
-**✨ NEW in v2.0:** A ground-up redesign built for speed and simplicity — a new connections home, workspace, data grid, SQL editor, Structure and Graphs views, and an AI assistant that answers questions straight from your data. It starts faster, takes about 40% less disk space on a Mac, and keeps every feature you already rely on. [Full release notes](https://github.com/lunodb/lunodb/releases/tag/v2.0.0)
+**[Download the latest release](https://github.com/lunodb/lunodb/releases/latest)** · [Docs](https://lunodb.app/docs) · [LunoDB Mobile](#lunodb-mobile)
 
-**v2.1.0:** Switching between table tabs is close to instant, and MySQL and MariaDB exports are faster, with files that import faster and come back exactly as they went out. Apple Intelligence now fits much bigger schemas. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.0)
+## What's New in 2.10
 
-**v2.1.1:** A small polish release — the sidebar no longer leaves an empty gap above the logo on Windows and Linux. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.1)
+- Select cells to see their sum, average, min and max, and transpose wide rows
+- Compare query results and database schemas, search every table at once, and tunnel through SSH jump hosts (Pro)
+- **Pro Lifetime:** $25 once, on every computer you own, with every update forever. Earlier one-time licenses are upgraded for free
+- Socket-file connections on MySQL, MariaDB and PostgreSQL
 
-**v2.1.2:** Graphs you send to LunoDB Mobile now keep their full database name, and release notes stay on screen while an update downloads. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.2)
-
-**v2.1.3:** SSL settings and certificates now come with your connections when you move them to LunoDB Mobile, and back again (needs LunoDB Mobile 2.0 or later). [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.3)
-
-**v2.1.4:** Pro unlocks the moment you enter your license key or start a trial — no restart needed. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.1.4)
-
-**✨ NEW in v2.2:** LunoDB now opens 23 kinds of database, up from 8 — adding Oracle, ClickHouse, DuckDB, Cassandra, Elasticsearch, Firestore, Firebase Realtime Database, BigQuery and Snowflake, plus their own entries for Supabase, Neon, CockroachDB, Amazon Redshift, Valkey and OpenSearch. SSL/TLS is now free on every plan, and every SQL run gets its own results tab. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.2.0)
-
-**✨ NEW in v2.3:** One connection for the whole server — leave the database empty and every database on it appears in the sidebar. Jump to (now ⌘K) searches all of them, tabs from every database stay open, and PostgreSQL works across several databases from one saved connection. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.0)
-
-**v2.3.1:** Your newest query results open first, an error that could stop the table view from opening after long use is fixed, and LunoDB is about 20 MB smaller to download (DuckDB's engine now downloads the first time you open a DuckDB database). [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.1)
-
-**v2.3.2:** Run just the SQL you've selected (even statements from different parts of the editor), see every tag on your connections in the connection switcher, and reconnect more reliably after a network drop. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.2)
-
-**v2.3.3:** Saving is safer when your connection drops partway through a save — LunoDB tells you your changes may have been saved, keeps your edits, and asks before saving them again so nothing is applied twice. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.3.3)
-
-**✨ NEW in v2.4:** Steadier connections to servers over the internet — no more false "Connection lost" messages with MySQL and MariaDB on AWS, and LunoDB notices a dropped network within seconds. A new troubleshooting log (**Help → Export Logs**) makes bug reports much quicker to track down, without ever recording your queries, rows, passwords or server addresses. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.4.0)
-
-**✨ NEW in v2.5:** Much faster exports on MySQL and MariaDB — a 500,000-row table to CSV in about a second in our tests — and LunoDB no longer holds on to memory after a big export. Dates and date-times now export exactly as they're stored, and the sidebar keeps showing only your connection's own database after an import or refresh. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.5.0)
-
-**✨ NEW in v2.6:** Pick the database an SQL file is imported into on connections that list all their databases, see a ▶ beside every statement in your selection, and click a History item to go back to the tab it's already open in. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.6.0)
-
-**✨ NEW in v2.7:** Show up to 10,000 rows on a page, with smooth scrolling even on tables with hundreds of columns. Safe mode asks before changes on production (with Touch ID if you like) and catches an UPDATE or DELETE with no WHERE. Plus Vim key bindings, query parameters (`:name` and `?`), a clearer Query log, and Rename Table on every database that supports it. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.7.0)
-
-**✨ NEW in v2.8:** An MCP server lets Claude Code, Claude Desktop, Cursor and other AI agents read the connections you share — read-only, local to your computer, and never on Prod connections (Pro). Plus Explain and Explain Analyze plans, a library of saved queries in folders (Pro), and opening and saving .sql files in the SQL editor. Cancel now works on MariaDB and SQL Server. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.8.0)
-
-**v2.8.1:** Cancel stops exactly what you ran, large SQL tabs keep your edits through a restart, foreign and primary keys are easier to edit and copy, and backups are protected with a salted key. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.8.1)
-
-> **⚠️ Backups made with 2.8.1:** new backups need LunoDB 2.8 or later, or LunoDB Mobile 2.1.1 or later, to open. Older backups keep opening as before.
-
-**✨ NEW in v2.9:** See and edit functions, procedures, triggers and sequences right in the sidebar (Pro), export to Excel and import Excel, JSON, CSV and TSV into any database, and group your connections in folders. Each window now keeps its own SQL tabs. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.9.0)
-
-**✨ NEW in v2.10:** Select cells to see their sum, average, min and max, transpose wide rows, compare query results and database schemas (Pro), search every table at once (Pro), and tunnel through SSH jump hosts (Pro). SSH server keys are now checked like the ssh command does, MongoDB follows its SSL / TLS setting, and Settings is redesigned. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.10.0)
-
-**v2.10.1:** LunoDB Pro is now Pro Lifetime: $25 once, on every computer you own, with every update forever. Earlier one-time licenses are upgraded for free. Connecting through a socket file now works on MySQL, MariaDB and PostgreSQL. [Release notes](https://github.com/lunodb/lunodb/releases/tag/v2.10.1)
-
-> **⚠️ PostgreSQL with SSL set to Prefer:** 2.2 no longer sends your password unencrypted to a remote server that refuses SSL. If you connect to a remote PostgreSQL server that really has no SSL, set its SSL mode to **Disable**.
-
-> **⚠️ Upgrading from 1.x:** 2.0 moves saved passwords into your system keychain (converted automatically on first launch). If you later go back to a 1.x version, you'll need to re-enter those passwords — make a backup in **Settings → Backup** first if you might.
-
-**LunoDB Mobile is here!** - Manage your databases on the go. Available now on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885), Android coming soon. [Learn more](#lunodb-mobile)
+See the [release notes](https://github.com/lunodb/lunodb/releases) for every version.
 
 ## Download
 
-[**Download Latest Release**](https://github.com/lunodb/lunodb/releases/latest)
+| Platform | Builds | Updates |
+|----------|--------|---------|
+| macOS 12+ | Apple Silicon (`arm64.dmg`) or Intel (`x64.dmg`) | Automatic |
+| Windows 10+ | x64 | Automatic |
+| Linux (Ubuntu 20.04+ / RHEL 8+) | AppImage (recommended), DEB, RPM, for x64 and ARM64 | AppImage automatic · DEB asks for your password · RPM manual |
 
-- **macOS** - Separate builds for Apple Silicon and Intel (fully automatic updates)
-  - **Apple Silicon** (M1 and later, recommended) - `LunoDB-<version>-arm64.dmg`
-  - **Intel** - `LunoDB-<version>-x64.dmg`
-- **Windows** - x64 (fully automatic updates)
-- **Linux** - x64 & ARM64:
-  - **AppImage** - Fully automatic updates (recommended)
-  - **DEB Package** - Semi-automatic updates (requires password)
-  - **RPM Package** - Manual updates via GitHub
-
-### Homebrew (macOS)
+**Homebrew (macOS):**
 
 ```sh
 brew install --cask idevtim/tap/lunodb
 ```
 
-Same signed build, from the [idevtim tap](https://github.com/idevtim/homebrew-tap). Homebrew picks the Apple Silicon or Intel build for your Mac, and LunoDB updates itself afterwards, so `brew upgrade` leaves it alone unless you pass `--greedy`. `brew uninstall --zap --cask lunodb` also removes your saved connections, query history and settings.
+LunoDB updates itself after installing, so `brew upgrade` leaves it alone unless you pass `--greedy`.
 
-## Auto-Updates
+### Upgrade Notes
 
-LunoDB includes built-in update notifications with varying levels of automation by platform:
-
-- **macOS & Windows** - Fully automatic: downloads and installs updates seamlessly in the background
-- **Linux AppImage** - Fully automatic: installs updates without requiring passwords or system permissions
-- **Linux DEB** - Semi-automatic: downloads updates automatically, but requires your password to install (via system authentication)
-- **Linux RPM** - Manual: notifies you of new versions and directs you to download from GitHub releases
-
-All versions include in-app release notes and update notifications to keep you informed of new features and improvements.
+- **From 1.x:** saved passwords move into your system keychain. If you might go back to 1.x, make a backup in **Settings → Backup** first.
+- **PostgreSQL with SSL set to Prefer:** LunoDB no longer sends your password unencrypted to a server that refuses SSL. If your remote server really has no SSL, set its SSL mode to **Disable**.
+- **Backups made with 2.8.1 or later** need LunoDB 2.8+ or LunoDB Mobile 2.1.1+ to open.
 
 ## Supported Databases
 
-🐬 **MySQL** - MySQL 5.7+, 8.0+
-🦭 **MariaDB** - MariaDB 10.0+
-🐘 **PostgreSQL** - PostgreSQL 10+
-📄 **SQLite** - SQLite 3.x
-🏢 **SQL Server** - SQL Server 2016+, Azure SQL
-🍃 **MongoDB** - MongoDB 4.0+, Atlas
-🔴 **Redis** - Redis 6.0+, Redis Cloud
-🪶 **Turso** - LibSQL databases with full support
-🔶 **Oracle** - Oracle Database 12c+, Oracle Cloud wallets, nothing extra to install
-🟡 **ClickHouse** - Self-hosted over HTTP(S) and ClickHouse Cloud
-🦆 **DuckDB** - Local .duckdb files, optionally read-only
-👁️ **Apache Cassandra** - Clusters and DataStax Astra
-🔍 **Elasticsearch** - Self-hosted and Elastic Cloud, with Elasticsearch SQL or Dev Tools-style requests
-🔥 **Cloud Firestore** - Service account or Firebase emulator
-🔥 **Firebase Realtime Database** - The JSON tree as tables
-📊 **Google BigQuery** - Free row browsing, optional maximum bytes billed
-❄️ **Snowflake** - Key pair or programmatic access token
+MySQL · MariaDB · PostgreSQL · SQLite · SQL Server · Oracle · MongoDB · Redis · Turso · ClickHouse · DuckDB · Cassandra · Elasticsearch · Cloud Firestore · Firebase Realtime Database · BigQuery · Snowflake
 
-Supabase, Neon, CockroachDB and Amazon Redshift (PostgreSQL), Valkey (Redis) and OpenSearch (Elasticsearch) each have their own entry with their usual port and user — 23 kinds of database in all.
+Plus dedicated entries for Supabase, Neon, CockroachDB, Amazon Redshift, Valkey and OpenSearch.
 
 ## Features
 
-### Connections
-- **Multi-Database Support** - 23 kinds of database, from MySQL, PostgreSQL, SQL Server and Oracle to MongoDB, Redis, ClickHouse, DuckDB, Snowflake, BigQuery, Cassandra, Elasticsearch and Firestore
-- **Connections Home** - Every saved connection in one place, with search across names, hosts, databases and tags, environment filters (Production, Staging, Local) and drag-to-reorder
-- **Paste a Connection URL** - `postgres://`, `mysql://`, `mongodb://`, `redis://`, `libsql://` and more fill in the form for you; test before saving
-- **Pick Up Where You Left Off** - Reconnects last session's connections side by side; open the workspace as soon as one is ready
-- **SSH Tunneling** - Password, key file, or SSH agent (including 1Password and Secretive); encrypted keys ask for their passphrase once
-- **SQLite Files** - Drop a file on the window to open it, see recent files, or **Open read-only** to browse safely
-- **Turso Local Replicas** - Work from a local copy that syncs each time you connect
-- **Resilient Reconnection** - A non-blocking banner, five retries with backoff, pauses while offline, and cached rows stay on screen read-only while a connection is down
-- **Multiple Workspaces** - Independent windows, each remembering its own connections and tabs
-
-### Data View
-- **Fast, Clear Grid** - Column types and key icons in headers, right-aligned numbers, highlighted `NULL`s, tags for booleans and enums, relative dates
-- **Safe Editing** - Edited cells stay highlighted, **Review** shows the exact SQL before **Save**, and saves run in one transaction — all or nothing. Production connections ask first
-- **One Filter Bar** - Type `plan = pro` or `total >= 100`, or describe the filter in plain words and let AI build it; filters show as editable chips
-- **Instant Deep Paging** - The last page of a 10 million row MySQL table opens in milliseconds
-- **Column Stats** - Right-click a header for min, max, average, NULLs and distinct values
-- **Flexible Export** - Filtered rows, the current page, selected rows or the whole table as CSV, JSON or SQL INSERT, with column picking, preview and size estimate; big exports keep running in the corner
-- **Seed Fake Data** - Realistic sample rows matched to column types and names, respecting keys and constraints
-- **Copy & Paste Rows** - Duplicate data between tables with ⌘C/Ctrl+C and ⌘V/Ctrl+V (Pro)
-
-### SQL Editor
-- **Schema-Aware Editor** - Suggestions for your tables (with row counts) and columns (with types), hover info, and failed lines marked with the database's error
-- **Run Current or Run All** - Click ▶ beside any statement to run just that one; **Run all** keeps your whole script on one connection so transactions, `SET` and temp tables hold together
-- **Safer Scripts** - Run all stops at the first failure and rolls back, asks to commit or roll back an open transaction, and can run the whole script as one transaction
-- **Results Like the Data View** - One tab per statement plus a **Messages** tab; edit results, even from joins, on MySQL, MariaDB, PostgreSQL and SQLite
-- **History Panel** - Search past queries, star the ones you reuse, and add notes
-- **Query Log** - Every query with execution time, status and errors, in a drawer along the bottom (Pro)
-- **Import & Export** - CSV, JSON and SQL with Gzip compression, drag-and-drop imports, and cancellable, minimizable jobs
-
-### Structure & Graphs
-- **Structure View** - Row counts, sizes, colour-coded types and key tags; edit columns in place and add columns and indexes with the exact SQL shown first
-- **Schema Diagrams** - Interactive foreign key relationship diagrams, exportable as images
-- **Graphs** - Bar, line, area, pie and scatter charts from your own SQL, with a live preview, the rows shown under the chart, and PNG export (Pro)
-- **AI Graph Suggestions** - Let AI propose charts for your data
-
-### AI Assistant
-- **Answers, Not Just SQL** - Ask a question and the assistant runs a read-only query for you and shows the result as a one-line answer, a chart, a number or a table — then **Save to Graphs**, **Open in SQL** or **Apply as filter** (Pro)
-- **Safe by Design** - Answers run only a single SELECT inside a read-only transaction, capped at 10 seconds and 1,000 rows. Queries that change data are shown for review, never run for you
-- **Write with AI, Optimize, Insights** - Generate and refine SQL with version history, get index-aware optimization with before/after scores, and data quality insights for any table
-- **9 AI Providers** - OpenAI (GPT-6.1 Sol, GPT-6 Astra, Sol & Luna), Anthropic (Claude Opus 5.5, Sonnet 5.5, Haiku 5.5), Google (Gemini 3.8, 3.7 & 3.6 Flash), Grok 4.7, 4.6 & 4.5, DeepSeek, OpenRouter, Ollama, Apple Intelligence (on-device), Custom
-- **Fully Private Options** - Apple Intelligence and Ollama run on your machine with no external requests and no API key
-- **You Choose What It Sees** - Pick which tables the AI knows about and see exactly what it's told. Cloud providers receive your request and schema, plus the rows a feature needs (for example, up to 50 rows of an answer for its summary); turn automatic answers off in **Settings → AI → Features**
-
-### Everywhere
-- **Jump To** - ⌘K / Ctrl+K lists your tables, then actions, in one database or all of them
-- **Polished Interface** - Light and dark themes, dialogs that always fit the window, LunoDB-styled right-click menus, and subtle sounds (can be disabled)
-- **Calmer Crash Screen** - Plain-language errors with **Reload** or **Reload without tabs**, and a reference to quote to support
-- **Transfer to Mobile** - QR code sync to transfer connections and graphs to LunoDB Mobile
-
-### Performance & Security
-- **Faster Startup, Smaller App** - Heavy views load the first time you open them; about 280 MB installed on a Mac, down from about 470 MB
-- **Keychain-Encrypted Credentials** - Saved passwords, tokens and passphrases are encrypted with macOS Keychain, Windows Credential Manager or the Linux secret service
-- **Keys Stay in the Background** - Saved passwords and AI API keys never reach the app window
-- **SSL/TLS Support** - Encrypted database connections
+- **Connections** - Paste a connection URL, use SSH tunnels and SSL/TLS, group connections in folders, and see every database on a server from one connection
+- **Data grid** - Fast paging through millions of rows, filters in plain words, safe editing that shows the SQL before saving, and exports to CSV, JSON, SQL and Excel
+- **SQL editor** - Schema-aware suggestions, run one statement or the whole script, query history, saved queries and Explain plans
+- **Structure & graphs** - Edit tables, view relationship diagrams, and build charts from your own SQL
+- **AI assistant** - Ask a question and get an answer from a read-only query. Works with OpenAI, Anthropic, Google, Grok, DeepSeek, OpenRouter, or fully on-device with Ollama and Apple Intelligence
+- **MCP server** - Let Claude Code, Cursor and other AI agents read the connections you share, read-only (Pro)
+- **Safety** - Safe mode for production, passwords stored in your system keychain, and saves that run in a single transaction
 
 ## Screenshots
 
-### Home Screen
 ![Home Screen](screenshots/home-screen.webp)
-
-### Query Editor - Light Theme
-![Editor Light Theme](screenshots/editor-light.webp)
-
-### Query Editor - Dark Theme
 ![Editor Dark Theme](screenshots/editor-dark.webp)
-
-### AI Features
 ![AI Features](screenshots/ai-features.webp)
-
-## System Requirements
-
-| Platform | Minimum Version |
-|----------|----------------|
-| macOS | 12 (Monterey) or later |
-| Windows | Windows 10 or later |
-| Linux | Ubuntu 20.04+ / RHEL 8+ |
 
 ## Pricing
 
-LunoDB is **free to use** with no time restrictions for personal and commercial use.
+LunoDB is **free** for personal and commercial use, with no time limit. Try Pro free for 14 days, no credit card needed.
 
-**🎁 14-Day Pro Trial** - Try all Pro features free for 14 days with a simple email signup. No credit card required.
-
-### Pro Lifetime: $25 once
-
-Pay once. Unlimited devices. Every update, forever.
-
-- **One payment** - $25, no subscription and nothing to renew
-- **Unlimited devices** - Use one license on every Mac, Windows and Linux computer you own
-- **Every future update** - All new versions and Pro features are included, forever
-
-Bought a one-time Pro or Pro Bundle license before? It has been upgraded to Pro Lifetime for free on the same license key. Have a monthly subscription? Manage it anytime at [lunodb.app/account](https://lunodb.app/account).
-
-### Feature Comparison
+**Pro Lifetime: $25 once.** No subscription, use it on every computer you own, and get every future update. Have a monthly subscription? Manage it at [lunodb.app/account](https://lunodb.app/account).
 
 | Feature | Free | Pro |
 |---------|------|-----|
-| Database Connections | Up to 2 | Unlimited |
-| Schema-Aware SQL Editor | ✗ | ✓ |
-| Export to CSV | ✓ | ✓ |
-| Export to JSON & SQL | ✗ | ✓ |
-| SQL History & Query Log | Limited | Unlimited |
-| Graphs & Visualizations | ✗ | ✓ |
-| AI Features (SQL generation, AI filters, chat) | ✓ | ✓ |
-| AI Answer Cards (answers run on your data) | ✗ | ✓ |
-| SSH Tunnels | ✗ | ✓ |
-| SSL/TLS Connections | ✓ | ✓ |
-| Basic Query Editor | ✓ | ✓ |
-| Priority Support | ✗ | ✓ |
-| Commercial Use | ✓ | ✓ |
-
-We encourage users who find LunoDB helpful to consider going Pro to support ongoing development and help us build more features.
+| Database connections | Up to 2 | Unlimited |
+| Basic query editor, CSV export, SSL/TLS | ✓ | ✓ |
+| AI features (SQL generation, AI filters, chat) | ✓ | ✓ |
+| Schema-aware SQL editor | ✗ | ✓ |
+| JSON & SQL export | ✗ | ✓ |
+| SQL history & query log | Limited | Unlimited |
+| Graphs, AI answer cards, SSH tunnels | ✗ | ✓ |
+| Priority support | ✗ | ✓ |
 
 **[Get LunoDB Pro](https://lunodb.app/purchase)**
 
 ## LunoDB Mobile
 
-Take your database management on the go with LunoDB Mobile. **Available now on iOS, completely free.**
+Free on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885) for iPhone and iPad (Android coming soon). Connect to MySQL, PostgreSQL, MariaDB, MongoDB, SQLite and Turso, and move your connections and graphs over from the desktop app with a QR code. [Learn more](https://lunodb.app/mobile)
 
-[![Download on the App Store](https://img.shields.io/badge/App_Store-Download-blue?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/lunodb/id6756377885)
+## Support
 
-Android support is coming soon.
-
-Runs on iPhone and iPad.
-
-### Features
-- **6 Database Types** - MySQL, PostgreSQL, MariaDB, MongoDB, SQLite, and Turso
-- **Direct Connections** - Turso connects directly via HTTPS, SQLite works locally - no proxy needed
-- **SQLite File Import** - Import existing .db, .sqlite, and .sqlite3 files from your device or cloud storage
-- **QR Code Sync** - Instantly transfer all connections, graphs, and SSH tunnels from LunoDB Desktop
-- **Query Editor** - Write and execute queries with mobile-optimized interface
-- **AI Assistant** - Natural language SQL generation with your own OpenAI, Anthropic, Google, or xAI API key
-- **Visualizations** - Charts, graphs, and ER diagrams on the go, plus a Home Screen widget for your favorite chart
-- **Secure Connections** - MySQL, PostgreSQL, MariaDB, and MongoDB connect via the LunoDB Cloud proxy, with optional SSH tunnels
-- **Biometric Security** - Lock the app with Face ID or Touch ID
-
-### Connection Types
-
-| Database | Connection Method |
-|----------|------------------|
-| MySQL, PostgreSQL, MariaDB, MongoDB | Via LunoDB Cloud (secure proxy) |
-| Turso | Direct HTTPS (no proxy) |
-| SQLite | Local files on device |
-
-Learn more on our [website](https://lunodb.app/mobile) or follow us on [X](https://x.com/lunodb_app) for updates.
-
-## Documentation & Support
-
-- **Documentation** - [lunodb.app/docs](https://lunodb.app/docs)
-- **Bug Reports & Feature Requests** - [GitHub Issues](https://github.com/lunodb/lunodb/issues)
-
-## Contact
-
-**Email:** support@lunodb.app
-**Website:** https://lunodb.app
-**X:** [@lunodb_app](https://x.com/lunodb_app)
-**LinkedIn:** [LunoDB](https://www.linkedin.com/company/lunodb)
+- **Docs:** [lunodb.app/docs](https://lunodb.app/docs)
+- **Bugs & feature requests:** [GitHub Issues](https://github.com/lunodb/lunodb/issues)
+- **Email:** support@lunodb.app
+- **Follow:** [X](https://x.com/lunodb_app) · [LinkedIn](https://www.linkedin.com/company/lunodb)
 
 ---
 
