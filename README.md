@@ -23,7 +23,7 @@ See the [release notes](https://github.com/lunodb/lunodb/releases) for every ver
 ## Download
 
 | Platform | Builds | Updates |
-|----------|--------|---------|
+| -------- | ------ | ------- |
 | macOS 12+ | Apple Silicon (`arm64.dmg`) or Intel (`x64.dmg`) | Automatic |
 | Windows 10+ | x64 | Automatic |
 | Linux (Ubuntu 20.04+ / RHEL 8+) | AppImage (recommended), DEB, RPM, for x64 and ARM64 | AppImage automatic · DEB asks for your password · RPM manual |
@@ -71,7 +71,7 @@ LunoDB is **free** for personal and commercial use, with no time limit. Try Pro 
 **Pro Lifetime: $25 once.** No subscription, use it on every computer you own, and get every future update. Have a monthly subscription? Manage it at [lunodb.app/account](https://lunodb.app/account).
 
 | Feature | Free | Pro |
-|---------|------|-----|
+| ------- | ---- | --- |
 | Database connections | Up to 2 | Unlimited |
 | Basic query editor, CSV export, SSL/TLS | ✓ | ✓ |
 | AI features (SQL generation, AI filters, chat) | ✓ | ✓ |
@@ -91,9 +91,9 @@ Free on [iOS](https://apps.apple.com/us/app/lunodb/id6756377885) for iPhone and 
 
 - **Docs:** [lunodb.app/docs](https://lunodb.app/docs)
 - **Bugs & feature requests:** [GitHub Issues](https://github.com/lunodb/lunodb/issues)
-- **Email:** support@lunodb.app
+- **Email:** [support@lunodb.app](mailto:support@lunodb.app)
 - **Follow:** [X](https://x.com/lunodb_app) · [LinkedIn](https://www.linkedin.com/company/lunodb)
 
 ---
 
-**© 2025-2026 LunoDB** • Made with ❤️ for developers
+**© 2026 LunoDB** • Made with ❤️ for developers
