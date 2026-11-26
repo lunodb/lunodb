@@ -64,9 +64,23 @@ Plus dedicated entries for Supabase, Neon, CockroachDB, Amazon Redshift, Valkey 
 
 ## Screenshots
 
-![Home Screen](screenshots/home-screen.webp)
-![Editor Dark Theme](screenshots/editor-dark.webp)
-![AI Features](screenshots/ai-features.webp)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./screenshots/home-screen-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="./screenshots/home-screen-light.webp">
+  <img src="./screenshots/home-screen-light.webp" alt="LunoDB data view: customers filtered to the pro plan" width="100%"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./screenshots/editor-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="./screenshots/editor-light.webp">
+  <img src="./screenshots/editor-light.webp" alt="LunoDB SQL editor with query results" width="100%"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./screenshots/ai-features-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="./screenshots/ai-features-light.webp">
+  <img src="./screenshots/ai-features-light.webp" alt="LunoDB AI assistant answering with a chart of pro customers per country" width="100%"/>
+</picture>
 
 ## Pricing
 
